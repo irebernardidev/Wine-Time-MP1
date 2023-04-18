@@ -16,94 +16,103 @@
 <body>
 
 	<header>
-		<div class="logo">
-			<img src="assets/images/bar-logo.jpg" alt="Wine Bar logo">
-		</div>
-		<nav>
-			<ul>
-				<li><a href="index.html">Home</a></li>
-				<li><a href="#">About</a></li>
-				<li><a href="#">Menu</a></li>
-				<li><a href="#">Contact</a></li>
-			</ul>
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="#">
+					<img src="assets/images/bar-logo.png" alt="Wine Bar logo">
+				</a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNav">
+					<ul class="navbar-nav ms-auto">
+						<li class="nav-item">
+							<a class="nav-link active" href="index.html">Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">About</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="menu.html">Menu</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Contact</a>
+						</li>
+					</ul>
+				</div>
+			</div>
 		</nav>
 	</header>
+    <!-- Carousel -->
 
-	<section class="hero">
-		<video autoplay loop muted>
-			<source src="assets/images/background-video.mp4" type="video/mp4">
-		</video>
-		<div class="hero-content">
-			<h1>Welcome to Wine Bar</h1>
-			<p>Discover the best wines from around the world</p>
-		</div>
-	</section>
+<div id="demo" class="carousel slide" data-bs-ride="carousel">
 
-	<section class="cards">
-		<div class="card">
-			<div class="card-inner">
-				<div class="card-front">
-					<img class="card-img" src="assets/images/card1-image.jpg" alt="Card 1 image">
-				</div>
-				<div class="card-back">
-					<h3>Red Wines</h3>
-					<ul>
-						<li>Cabernet Sauvignon</li>
-						<li>Merlot</li>
-						<li>Pinot Noir</li>
-					</ul>
-				</div>
-			</div>
-		</div>
+    <!-- Indicators/dots -->
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+    </div>
+    
+    <!-- The slideshow/carousel -->
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="assets/images/wine-1.jpg" alt="wine field" class="d-block" style="width:100%">
+        <div class="carousel-caption">
+          <h3>Our Vineyards</h3>
+          <p>Only the best grapes!</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="assets/images/wine-2.jpg" alt="woman with wine" class="d-block" style="width:100%">
+        <div class="carousel-caption">
+          <h3>A taste of Tuscany</h3>
+          <p>Only DOCG Wines</p>
+        </div> 
+      </div>
+      <div class="carousel-item">
+        <img src="assets/images/wine-3.jpg" alt="friends toasting" class="d-block" style="width:100%">
+        <div class="carousel-caption">
+          <h3>We want you to have a good time!</h3>
+          <p>Salute!</p>
+        </div>  
+      </div>
+    </div>
+    
+    <!-- Left and right controls/icons -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
 
-		<div class="card">
-			<div class="card-inner">
-				<div class="card-front">
-					<img class="card-img" src="assets/images/card2-image.jpg" alt="Card 2 image">
-				</div>
-				<div class="card-back">
-					<h3>White Wines</h3>
-					<ul>
-						<li>Chardonnay</li>
-						<li>Sauvignon Blanc</li>
-						<li>Riesling</li>
-					</ul>
-				</div>
-			</div>
-		</div>
-
-		<div class="card">
-			<div class="card-inner">
-				<div class="card-front">
-					<img class="card-img" src="assets/images/card3-image.jpg" alt="Card 3 image">
-				</div>
-				<div class="card-back">
-					<h3>Rose Wines</h3>
-					<ul>
-						<li>Provencal Rose</li>
-						<li>Zinfandel</li>
-						<li>Pinot Noir Rose</li>
-					</ul>
-				</div>
-			</div>
-		</div>
-	</section>
-
+      
+      
+	
 	<footer>
 		<div class="footer-info">
-			<h3>Wine Bar</h3>
+			<h3>Wine Time</h3>
 			<p>123 Main Street, Anytown USA</p>
 			<p>Open 7 days a week from 4pm-11pm</p>
-		</div>
-		<div class="footer-social">
-			<a href="#"><img src="facebook-icon.png" alt="Facebook"></a>
-			<a href="#"><img src="twitter-icon.png" alt="Twitter"></a>
-			<a href="#"><img src="instagram-icon.png" alt="Instagram"></a>
-		</div>
-		<div class="footer-button">
-			<a href="book-a-table.html">Book a Table</a>
-			</div>
-			</footer>
-			
-			</body>
-			</html>
+		  </div>
+		  <div class="footer-social">
+			<a href="https://www.facebook.com/" target="_blank">
+			  <i class="fab fa-facebook" aria-hidden="true"></i>
+			</a>
+			<a href="https://www.instagram.com/" target="_blank">
+			  <i class="fab fa-instagram" aria-hidden="true"></i>
+			</a>
+			<a href="https://www.twitter.com/" target="_blank">
+			  <i class="fab fa-twitter" aria-hidden="true"></i>
+			</a>
+		  </div>
+		  <div class="footer-book">
+			<a href="#" class="btn btn-primary">Book a Table</a>
+		  </div>
+		</footer>
+	  
+
+	</body>
+  </html>
