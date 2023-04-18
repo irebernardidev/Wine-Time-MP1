@@ -1,4 +1,3 @@
-/* Global Styles */
 * {
 	box-sizing: border-box;
 	margin: 0;
@@ -30,6 +29,10 @@ header {
 nav ul {
 	display: flex;
 	list-style: none;
+	justify-content: space-between; 
+    align-items: center;
+    margin: 0;
+    padding: 0;
 }
 
 nav li {
@@ -80,6 +83,11 @@ nav a:hover {
 }
 
 /* Card Section */
+.card-img {
+	max-width: 100%;
+	height: auto;
+  }
+
 .cards {
 	display: flex;
 	flex-wrap: wrap;
