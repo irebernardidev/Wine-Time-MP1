@@ -176,6 +176,7 @@ opacity: 0.9;
 	font-size: 18px;
 	line-height: 1.5;
 	margin-bottom: 30px;
+	font-family: 'Georgia', sans-serif;
   }
   
   .button-container {
@@ -266,80 +267,127 @@ opacity: 0.9;
   .hero p {
 	font-size: 1.5rem;
 	margin-bottom: 40px;
+	font-family: 'Georgia', sans-serif;
+	letter-spacing: 1px;
+  }
+
+/* Wine List Section */
+.wine-list {
+	background-color: #f8f8f8;
+	padding: 60px 0;
   }
   
-  
-  /* Card section styles */
-  .cards {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	margin: 60px 0;
+  .wine-list h2 {
+	text-align: center;
+	margin-bottom: 50px;
+	font-family: 'Lobster', sans-serif;
+	color: rgb(242, 5, 5);
   }
   
-  .card {
-	width: 300px;
-	height: 400px;
-	margin: 20px;
-	perspective: 1000px;
-  }
-  
-  .card .card-inner {
+  .wine-list .card {
+	margin-bottom: 30px;
+	border: none;
+	box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+	transition: all 0.3s ease;
+	width: 100%;
+	height: 350px;
 	position: relative;
+  }
+  
+  .wine-list .card .flip-card-inner {
+	position: absolute;
 	width: 100%;
 	height: 100%;
-	transition: transform 0.8s;
+	transition: transform 0.6s;
 	transform-style: preserve-3d;
   }
   
-  .card:hover .card-inner {
-	transform: rotateY(180deg);
-  }
-  
-  .card .card-front,
-  .card .card-back {
+  .wine-list .card .flip-card-front, .wine-list .card .flip-card-back {
 	position: absolute;
 	width: 100%;
 	height: 100%;
 	backface-visibility: hidden;
   }
   
-  .card .card-front {
-	background-color: #fff;
-	display: flex;
-	align-items: center;
-	justify-content: center;
+  .wine-list .card .flip-card-front {
+	transform: rotateY(0deg);
   }
   
-  .card .card-img {
-	width: 100%;
-	height: 100%;
+  .wine-list .card .flip-card-back {
+	transform: rotateY(180deg);
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .wine-list .card:hover .flip-card-inner {
+	transform: rotateY(180deg);
+  }
+  
+  .wine-list .card img {
+	height: 250px;
 	object-fit: cover;
   }
   
-  .card .card-back {
-	background-color: #f00;
-	color: #fff;
-	transform: rotateY(180deg);
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	padding: 20px;
-  }
-  
-  .card h3 {
-	font-size: 2rem;
-	margin-bottom: 20px;
-  }
-  
-  .card ul {
-	font-size: 1.2rem;
-	margin-bottom: 20px;
-  }
-  
-  .card ul li {
+  .wine-list .card-title {
+	font-family: 'Lobster', sans-serif;
+	color: rgb(242, 5, 5);
+	font-size: 24px;
+	font-weight: bold;
 	margin-bottom: 10px;
+  }
+  
+  .wine-list .card-text {
+	font-size: 16px;
+	font-family: 'Georgia', sans-serif;
+	color: #333;
+  }
+  
+  .wine-list .card .flip-card-back h5 {
+	font-size: 24px;
+	font-weight: bold;
+	margin-bottom: 10px;
+  }
+  
+  .wine-list .card .flip-card-back ul {
+	font-size: 18px;
+	color: #333;
+	font-family: 'Georgia', sans-serif;
+	list-style-type: none;
+	margin-left: 0;
+	padding-left: 0;
+  }
+  
+  .wine-list .card .flip-card-back ul li {
+	margin-bottom: 10px;
+  }
+  
+  @media (max-width: 992px) {
+	.wine-list .card {
+	  height: 400px;
+	}
+  }
+  
+  @media (max-width: 768px) {
+	.wine-list .card {
+	  height: 450px;
+	}
+  }
+  
+  @media (max-width: 576px) {
+	.wine-list .card {
+	  height: 350px;
+	}
+  
+	.wine-list .card .flip-card-front, .wine-list .card .flip-card-back {
+	  width: 90%;
+	}
+  
+	.wine-list .card .flip-card-back ul {
+	  font-size: 14px;
+	}
   }
   
 /* Circle list of items*/
@@ -382,6 +430,7 @@ opacity: 0.9;
 	text-align: center;
 	font-size: 1.2rem;
 	margin-bottom: 30px;
+	font-family: 'Georgia', sans-serif;
   }
 
   .circle-item img:hover {
@@ -411,6 +460,9 @@ opacity: 0.9;
 	  height: auto;
 	}
   }
+
+  
+  
 
 /* Responsive image gallery*/
   
@@ -447,6 +499,10 @@ opacity: 0.9;
     }
   }
   
+ 
+	
+ 
+
   .image-item {
     position: relative;
     cursor: pointer;
@@ -462,6 +518,7 @@ opacity: 0.9;
     transform: scale(0);
     transition: all 0.2s 0.1s ease-in-out;
     color: #fff;
+	font-family: 'Georgia', sans-serif;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -496,6 +553,7 @@ opacity: 0.9;
 	resize: none;
 	font-size: 14px;
 	color: #666;
+	font-family:'Georgia', sans-serif;
   }
   
   textarea {
