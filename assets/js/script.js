@@ -35,3 +35,27 @@ $(document).ready(function() {
       map: map,
     });
   }
+
+  /* Review Form */
+  
+  const form = document.getElementById("review-form");
+  const successMessage = document.createElement("div");
+  successMessage.classList.add("alert", "alert-success");
+  successMessage.innerHTML = "Thank you for your review!";
+  
+  form.addEventListener("submit", (event) => {
+    event.preventDefault();
+    const name = document.getElementById("name").value;
+    const email = document.getElementById("email").value;
+    const review = document.getElementById("review").value;
+    
+    // You can send the form data to your server using fetch() or XMLHttpRequest()
+    // Here, we'll just display a success message
+    
+    form.reset();
+    form.appendChild(successMessage);
+  });
+
+
+ 
+
