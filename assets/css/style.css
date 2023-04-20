@@ -674,7 +674,11 @@ border:2px solid #000;
 background-color:#fff;
 color: #f20505
 }
-	
+
+.highlighted-button.button-review{
+	display: inline-block;
+}
+
 .highlighted-button, .btn-send{
 font-size:1.2rem;
 display: flex;
