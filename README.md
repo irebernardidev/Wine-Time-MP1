@@ -113,6 +113,11 @@ Wireframes were created using a desktop version of Balsamiq to showcase the webs
 
 (insert image of wireframes here)
 
+## Mockups
+
+Please refer to our [mockups PDF](https://github.com/irebernardidev/Wine-Time-project1/blob/main/Mockups%20MP1.pdf) for detailed designs.
+
+
 ## Design
 The following design elements were used in the website:
 - Colour Palette
