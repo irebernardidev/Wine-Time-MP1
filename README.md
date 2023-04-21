@@ -1,6 +1,6 @@
 # Creating a Responsive Website Using HTML, CSS, and Bootstrap - Milestone Project 1
 
-Find the final project here: [link to final project](insert link here)
+Find the final project here: [link to final project] https://github.com/irebernardidev/Wine-Time-project1
 
 ## Table of Contents
 - [Introduction](#introduction)
