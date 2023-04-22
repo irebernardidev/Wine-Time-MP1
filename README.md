@@ -1,4 +1,4 @@
-# Creating a Responsive Website Using HTML, CSS, and Bootstrap - Milestone Project 1
+# Wine Time
 
 Find the final project here: [link to final project] 
 
@@ -27,7 +27,12 @@ Find the final project here: [link to final project]
 - [Acknowledgements](#acknowledgements)
 
 ## Introduction
-This is a responsive website project created using HTML, CSS, and Bootstrap. This readme file provides all necessary information about the website.
+This is a responsive webpage for Wine Time, a neighborhood wine bar that offers a cozy and relaxed atmosphere for people to discover great food and beautiful wine. The webpage is designed to be viewed on various devices with different screen sizes.
+
+This website was made for the first of four Milestone projects required to complete the Diploma in Software development program at The Code Institute.
+
+The main requirements of this project are to build a responsive and static front-end site to present useful information to users using all the technologies learned so far, namely HTML5, CSS3 and Bootstrap 5.3.0. The site is to contain no less than three pages.
+
 
 ## UX
 The website was designed with the following target audience in mind:
@@ -115,12 +120,29 @@ Wireframes were created using a desktop version of Balsamiq to showcase the webs
 
 ## Mockups
 
-Please refer to our [mockups PDF](https://github.com/irebernardidev/Wine-Time-project1/blob/main/Mockups%20MP1.pdf) for detailed designs.
+Please refer to [mockups PDF](https://github.com/irebernardidev/Wine-Time-project1/blob/main/Mockups%20MP1.pdf) for detailed designs.
 
 
-## Design
+### Design
+
+The design of the Wine Time webpage features a warm and inviting color palette with the following colors:
+:root {
+  --primary-color: #b44649; /* dark red */
+  --secondary-color: #ecd6c2; /* beige */
+  --text-color: #333333; /* dark gray */
+  --accent-color: #f5d5cb; /* light orange */
+  --background-color: #f7f7f7; /* light gray */
+}
+
+The dark red primary color is used for the header and some of the buttons, while the beige secondary color is used for section titles and other headings. The text color is a dark gray that provides good contrast against the light background color, and the light orange accent color is used sparingly to add some visual interest.
+
+The overall design of the webpage is simple and elegant, with a focus on showcasing the wine bar's offerings in a visually appealing way. The use of images and a carousel adds visual interest and helps to break up the text content.
+
+
+
 The following design elements were used in the website:
-- Colour Palette
+- [Colour Palette](#design)
+
 - Typography
 - Imagery
 
@@ -139,9 +161,11 @@ The website includes the following features:
 - Responsive design for all devices
 - Information on the type of bar and services available
 - Wine selection and prices
+- Fodd menu and prices
 - Location of the bar and working hours
 - Pictures of the bar
 - Online booking enquiry form
+- Review Form
 
 ### Design Features
 Each page on the website has a consistent design and layout, ensuring ease of use and a seamless user experience.
@@ -164,12 +188,14 @@ The following technologies were used in the development of the website:
 ### Main Languages Used
 - HTML5
 - CSS3
-- JS
+- JS (only for the map and submission forms)
 
 ### Frameworks, Libraries & Programs Used
-- Bootstrap
+- Bootstrap 5.3.0
 - Balsamiq
 - GitHub
+- Google Fonts
+- Font Awesome 6.3.0
 
 ## Testing
 The website was tested thoroughly to ensure it is fully functional and user-friendly. The testing phase involved manual testing on different devices and browsers.
@@ -186,6 +212,7 @@ To deploy the website on GitHub Pages, the following steps were followed:
 - The website will now be live at the URL provided in the GitHub Pages section
 
 ## Credits
+The website was built by the developer. The webpages use images from Freepik and Adobe free licence libreries, and icons from Font Awesome.
 ### Content
 All content was written by the website developer.
 
