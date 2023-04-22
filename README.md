@@ -124,36 +124,28 @@ Please refer to [mockups PDF](https://github.com/irebernardidev/Wine-Time-projec
 
 
 ### Design
-
-The design of the Wine Time webpage features a warm and inviting color palette with the following colors:
-:root {
-  --primary-color: #b44649; /* dark red */
-  --secondary-color: #ecd6c2; /* beige */
-  --text-color: #333333; /* dark gray */
-  --accent-color: #f5d5cb; /* light orange */
-  --background-color: #f7f7f7; /* light gray */
-}
-
-The dark red primary color is used for the header and some of the buttons, while the beige secondary color is used for section titles and other headings. The text color is a dark gray that provides good contrast against the light background color, and the light orange accent color is used sparingly to add some visual interest.
-
-The overall design of the webpage is simple and elegant, with a focus on showcasing the wine bar's offerings in a visually appealing way. The use of images and a carousel adds visual interest and helps to break up the text content.
-
-
-
 The following design elements were used in the website:
-- [Colour Palette](#design)
 
-- Typography
-- Imagery
+- ### Colour Scheme
+Using the [Adobe Color](https://color.adobe.com/create/color-wheel) colour wheel, the colour scheme chosen is based on wine red colour.  The dark red primary color is used for the header and some of the buttons, while the beige secondary color is used for section titles and other headings. The text color is a dark gray that provides good contrast against the light background color, and the light orange accent color is used sparingly to add some visual interest.
 
-### Colour Palette
 The website uses a consistent colour palette throughout all pages to ensure visual cohesion.
 
-### Typography
-A consistent typography was used throughout the website to ensure easy readability.
+The overall design of the webpage is simple and elegant, with a focus on showcasing the wine bar's offerings in a visually appealing way. 
 
-### Imagery
+### Colour Palette [![Colour Palette](assets/images/color-palette.png)](#design)
+[![Colour Palette](assets/images/color-palette2.png)](#design)
+
+- ### Typography
+
+The typography pairing used on the site are [Lobster](https://fonts.google.com/?query=lobster), [Josefin Sans](https://fonts.google.com/?query=josefin) and [Lato](https://fonts.google.com/?query=lato), imported from [Google Fonts](https://fonts.google.com/). A backup of Sans-Serif had been applied in case of import failure.
+
+Lobster was chosen for the headings and titles, Josefin Sans will be used for is used for slogans and paragraphs and Lato for the rest of the body text such as navbar menu, bar details in footer and buttons. The fonts were chosen for their elegant look and excellent legibility, which makes reading and navigation on the website easy and comfortable.
+
+
+- ### Imagery
 High-quality images and/or videos were used to enhance the website's visual appeal and showcase the bar's atmosphere.
+The selected imagery has been sourced and created from various sites such as Freepik, Adobe, Canva.
 
 ## Features
 The website includes the following features:
