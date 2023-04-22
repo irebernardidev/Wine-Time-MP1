@@ -148,12 +148,19 @@ High-quality images and/or videos were used to enhance the website's visual appe
 The selected imagery has been sourced and created from various sites such as Freepik, Adobe, Canva.
 
 ## Features
+Each page within the site has a consistent and responsive navigation system. The details of features on the site are detailed below.
+
+The Header is across the top of the page. It is not static as this would cover too much of the screen. 
+The navigation bar is only used for screen sizes larger than 1200px. It is then replaced by a hamburger menu.
+The Navigation Bar collapses into a Hamburger Menu that, when clicked or tapped, opens a sidebar which shows the navigation options.
+The Footer stays at the bottom of the screen at all times, on all screen sizes. Each social media link opens in a new tab.
+
 The website includes the following features:
 - Easy navigation system
 - Responsive design for all devices
 - Information on the type of bar and services available
 - Wine selection and prices
-- Fodd menu and prices
+- Food menu and prices
 - Location of the bar and working hours
 - Pictures of the bar
 - Online booking enquiry form
