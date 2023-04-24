@@ -116,10 +116,6 @@ The information was organized into a hierarchical tree structure or site map to 
 ##### Skeleton
 Wireframes were created using a desktop version of Balsamiq to showcase the website's appearance and ensure positive user experience.
 
-(insert image of wireframes here)
-
-## Mockups
-
 Please refer to [mockups PDF](https://github.com/irebernardidev/Wine-Time-project1/blob/main/Mockups%20MP1.pdf) for detailed designs.
 
 
@@ -190,11 +186,13 @@ The following technologies were used in the development of the website:
 - JS (only for the map and submission forms)
 
 ### Frameworks, Libraries & Programs Used
-- Bootstrap 5.3.0
-- Balsamiq
-- GitHub
-- Google Fonts
-- Font Awesome 6.3.0
+- [Bootstrap 5.3.0](https://getbootstrap.com/)
+- [Balsamiq](https://balsamiq.com/) was used to create the wireframes during the design phase of the project.
+- [GitHub](https://github.com/) was used to store the project after pushing.
+- [Google Fonts](https://fonts.google.com/) was used to import the fonts "Lobster", "Josefin Sans" and "Lato" into the style.css file. These fonts were used throughout the project.
+- [Font Awesome 6.3.0](https://fontawesome.com/) was used on almost all pages throughout the website to import icons (e.g. social media icons) for UX purposes.
+- [Am I Responsive?](https://ui.dev/amiresponsive) was used in order to see responsive design throughout the process and to generate mockup imagery to be used.
+
 
 ## Testing
 The website was tested thoroughly to ensure it is fully functional and user-friendly. The testing phase involved manual testing on different devices and browsers.
