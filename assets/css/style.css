@@ -68,7 +68,7 @@ ul {
 
 .nav-link.active,
 .nav-link:focus,
-.nav-link:hover {
+.nav-link:hover, .dropdown-item:hover {
 	color: #f20505;
 }
 
@@ -77,11 +77,6 @@ ul {
 	font-weight: 700;
 	padding: 10px 0;
 	transition: all .3s ease-in-out;
-}
-
-.dropdown-item:hover {
-	color: #f20505;
-	background-color: #f1f1f1;
 }
 
 @media (min-width: 768px) {
@@ -124,6 +119,7 @@ ul {
 	}
 }
 
+/* Carousel styles */
 #demo {
 	padding-top: 5rem;
 	padding-bottom: 5rem;
@@ -220,9 +216,6 @@ ul {
 .wine-list {
 	background-color: #f8f8f8;
 	padding: 60px 0;
-}
-
-.wine-list {
 	text-align: center;
 	margin-bottom: 50px;
 	font-family: 'Lobster', sans-serif;
@@ -338,6 +331,7 @@ ul {
 	}
 }
 
+/* Galery page, circle styles section*/
 .circle-section-title h2 {
 	text-align: center;
 	padding: 40px;
@@ -399,8 +393,8 @@ ul {
 	}
 
 	.circle-item:last-child {
-		margin-bottom: 0
-	};
+		margin-bottom: 0;
+	}
 
 	.circle-item img {
 		width: 100%;
@@ -495,7 +489,7 @@ textarea {
 textarea {
 	height: 120px;
 }
-
+/* Map styles */
 #map {
 	position: absolute;
 	top: 0;
@@ -580,7 +574,7 @@ textarea {
 		padding: 20px;
 	}
 
-	.review p {
+	.review p, .review h4 {
 		font-size: 14px;
 	}
 
@@ -593,16 +587,14 @@ textarea {
 		height: 60px;
 		margin-right: 10px;
 	}
-
-	.reviewer h4 {
-		font-size: 16px;
-	}
 }
 
 /* Review Form styles */
 .bg-image img {
 	background-size: cover;
 	background-position: center;
+	width: 100%;
+	height: auto;
 }
 
 .bg-image {
@@ -610,11 +602,6 @@ textarea {
 	text-align: center;
 	color: #fff;
 	font-size: 1.5rem;
-}
-
-.bg-image img {
-	width: 100%;
-	height: auto;
 }
 
 .review-form {
@@ -660,7 +647,7 @@ textarea {
 
 /* Gallery buttons */
 .button:hover,
-.button:focus {
+.button:focus, .highlighted-button:hover {
 	background-color: #000;
 	color: #fff;
 }
