@@ -323,7 +323,7 @@ ul {
 
 	.wine-list .card .flip-card-front,
 	.wine-list .card .flip-card-back {
-		width: 90%;
+		width: 100%;
 	}
 
 	.wine-list .card .flip-card-back ul {
@@ -718,79 +718,95 @@ textarea {
 /* Footer */
 footer {
 	background-color: #f1f1f1;
-	padding: 40px;
+	padding: 40px 40px 60px 40px;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
 	align-items: center;
-}
+	position: relative;
+  }
 
-.footer-info h3 {
+  .footer-social {
+	margin-top: 30px; /* add margin-top */
+  }
+  
+  
+  .footer-info h3 {
 	font-family: 'Lobster', sans-serif;
 	color: #f20505;
 	font-size: 2rem;
 	margin-bottom: 20px;
-}
-
-.footer-info p {
+  }
+  
+  .footer-info p {
 	font-size: 1.2rem;
 	margin-bottom: 10px;
-}
-
-.footer-social a {
+  }
+  
+  .footer-social a {
 	display: inline-flex;
 	align-items: center;
 	margin-right: 20px;
 	text-decoration: none;
-}
-
-.footer-social a i {
+  }
+  
+  .footer-social a i {
 	margin-right: 5px;
-}
-
-.footer-social i {
+  }
+  
+  .footer-social i {
 	font-size: 2rem;
 	color: #333;
 	transition: all .3s ease-in-out;
-}
-
-.footer-social i:hover {
+  }
+  
+  .footer-social i:hover {
 	color: #f20505;
-}
-
-@media screen and (max-width: 767px) {
+  }
+  
+  .footer-copyright {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	text-align: center;
+	padding: 10px;
+  }
+  
+  @media screen and (max-width: 767px) {
 	footer {
-		flex-direction: column;
-		align-items: center;
+	  flex-direction: column;
+	  align-items: center;
 	}
-
+  
 	.footer-info,
 	.footer-social,
 	.footer-book {
-		text-align: center;
-		margin-bottom: 20px;
+	  text-align: center;
+	  margin-bottom: 20px;
 	}
-
+  
 	.footer-info h3 {
-		font-size: 1.5rem;
-		margin-bottom: 10px;
+	  font-size: 1.5rem;
+	  margin-bottom: 10px;
 	}
-
+  
 	.footer-info p {
-		font-size: 1rem;
-		margin-bottom: 5px;
+	  font-size: 1rem;
+	  margin-bottom: 5px;
 	}
-
+  
 	.footer-social a {
-		margin-right: 10px;
+	  margin-right: 10px;
 	}
-
+  
 	.footer-social i {
-		font-size: 1.5rem;
+	  font-size: 1.5rem;
 	}
-
+  
 	.footer-book .btn {
-		font-size: 1rem;
-		padding: 5px 10px;
+	  font-size: 1rem;
+	  padding: 5px 10px;
 	}
-}
+  }
+  

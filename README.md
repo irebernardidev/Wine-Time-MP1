@@ -168,13 +168,17 @@ The website includes the following features:
 - Online booking enquiry form
 - Review Form
 
-
-[Navigation bar](#navigationbar): The navbar is responsive and adapts to different screen sizes. It includes a logo, a button for toggling the navbar menu, and links to the other pages on the website.The active page should appear inside a whiter box with a black border, the the other pages should highlight in red when hovered over, this applies to both desktop and collapsible nav bars.
+### [General Features](#general-features)
+[Navigation bar](#navigation-bar): The navbar is responsive and adapts to different screen sizes. It includes a logo, a button for toggling the navbar menu, and links to the other pages on the website.The active page should appear inside a whiter box with a black border, the the other pages should highlight in red when hovered over, this applies to both desktop and collapsible nav bars.
 ![Screenshot of responsive navbar](assets/images/browser-navbar.png)
 ![Screenshot of responsive navbar](assets/images/iPadmini-navbar.png)
 ![Screenshot of responsive navbar](assets/images/iPhone-navbar.png)
 
-Carousel: The carousel displays three images that highlight the wine bar's atmosphere, food, and wine selection. The carousel includes indicators/dots for navigating between the images, as well as left and right control buttons/icons.
+[Social media links](#socialmedia-links)
+The footer section includes links to Wine Time's social media profiles on Facebook, Instagram, and Twitter, as well as a copyright notice. Each social media site should appear dark grey, on hover, it should turn red and when clicked, should open in a new tab.
+
+
+[Carousel](#carousel): The carousel displays three images that highlight the wine bar's atmosphere, food, and wine selection. The carousel includes indicators/dots for navigating between the images, as well as left and right control buttons/icons.
 
 Wine Bar Section: This section provides a description of the wine bar and its philosophy. It also includes links to the wine menu and appetizer menu. The section is split into two columns, with the left column featuring a large header, a description, and two buttons linking to the menus. The right column features an image of the wine bar.
 
