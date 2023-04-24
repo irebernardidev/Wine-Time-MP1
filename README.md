@@ -144,12 +144,18 @@ High-quality images and/or videos were used to enhance the website's visual appe
 The selected imagery has been sourced and created from various sites such as Freepik, Adobe, Canva.
 
 ## Features
+
+---
+
+### Design Features
 Each page within the site has a consistent and responsive navigation system. The details of features on the site are detailed below.
 
 The Header is across the top of the page. It is not static as this would cover too much of the screen. 
 The navigation bar is only used for screen sizes larger than 1200px. It is then replaced by a hamburger menu.
 The Navigation Bar collapses into a Hamburger Menu that, when clicked or tapped, opens a sidebar which shows the navigation options.
 The Footer stays at the bottom of the screen at all times, on all screen sizes. Each social media link opens in a new tab.
+Each page on the website has a consistent design and layout, ensuring ease of use and a seamless user experience.
+
 
 The website includes the following features:
 - Easy navigation system
@@ -162,8 +168,17 @@ The website includes the following features:
 - Online booking enquiry form
 - Review Form
 
-### Design Features
-Each page on the website has a consistent design and layout, ensuring ease of use and a seamless user experience.
+
+[Navigation bar](#navigationbar): The navbar is responsive and adapts to different screen sizes. It includes a logo, a button for toggling the navbar menu, and links to the other pages on the website.The active page should appear inside a whiter box with a black border, the the other pages should highlight in red when hovered over, this applies to both desktop and collapsible nav bars.
+![Screenshot of responsive navbar](assets/images/browser-navbar.png)
+![Screenshot of responsive navbar](assets/images/iPadmini-navbar.png)
+![Screenshot of responsive navbar](assets/images/iPhone-navbar.png)
+
+Carousel: The carousel displays three images that highlight the wine bar's atmosphere, food, and wine selection. The carousel includes indicators/dots for navigating between the images, as well as left and right control buttons/icons.
+
+Wine Bar Section: This section provides a description of the wine bar and its philosophy. It also includes links to the wine menu and appetizer menu. The section is split into two columns, with the left column featuring a large header, a description, and two buttons linking to the menus. The right column features an image of the wine bar.
+
+Footer: The footer contains information about the wine bar's location and hours, as well as links to its social media pages. It also includes a call-to-action button for booking a table.
 
 ### Existing Features
 The website includes the features listed above, all of which have been fully implemented and tested.
