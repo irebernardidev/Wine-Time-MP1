@@ -1,6 +1,6 @@
 # Wine Time
 
-Find the final project here: [link to final project] 
+Find the final project here: [Wine Time MP1](https://irebernardidev.github.io/Wine-Time-MP1/)
 
 ## Table of Contents
 - [Introduction](#introduction)
@@ -174,15 +174,25 @@ The website includes the following features:
 ![Screenshot of responsive navbar](assets/images/iPadmini-navbar.png)
 ![Screenshot of responsive navbar](assets/images/iPhone-navbar.png)
 
-[Social media links](#socialmedia-links)
+[Social media links](#socialmedia-links):
 The footer section includes links to Wine Time's social media profiles on Facebook, Instagram, and Twitter, as well as a copyright notice. Each social media site should appear dark grey, on hover, it should turn red and when clicked, should open in a new tab.
+
+![Screenshot of responsive social links](assets/images/social-links.png)
+![Screenshot of responsive social links](assets/images/social-links-hover.png)
 
 
 [Carousel](#carousel): The carousel displays three images that highlight the wine bar's atmosphere, food, and wine selection. The carousel includes indicators/dots for navigating between the images, as well as left and right control buttons/icons.
 
 Wine Bar Section: This section provides a description of the wine bar and its philosophy. It also includes links to the wine menu and appetizer menu. The section is split into two columns, with the left column featuring a large header, a description, and two buttons linking to the menus. The right column features an image of the wine bar.
 
-Footer: The footer contains information about the wine bar's location and hours, as well as links to its social media pages. It also includes a call-to-action button for booking a table.
+[Footer](#footer): The footer contains information about the wine bar's location and hours, as well as links to its social media pages. It also includes a call-to-action button for booking a table.
+
+![Screenshot of responsive footer](assets/images/footer.png)
+![Screenshot of responsive footer](assets/images/footer-bookatable-hover.png)
+![Screenshot of responsive footer](assets/images/footer-iPhone.png)
+![Screenshot of responsive footer](assets/images/footer-iPadmini.png)
+
+
 
 ### Existing Features
 The website includes the features listed above, all of which have been fully implemented and tested.
