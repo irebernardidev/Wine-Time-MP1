@@ -69,7 +69,7 @@ ul {
 .nav-link.active,
 .nav-link:focus,
 .nav-link:hover, .dropdown-item:hover {
-	color: #f20505;
+	color: #d20404;
 }
 
 .dropdown-item {
@@ -127,7 +127,7 @@ ul {
 
 .carousel-indicators {
 	padding-bottom: 5rem;
-	color: #f20505;
+	color: #d20404;
 }
 
 .carousel-inner {
@@ -141,7 +141,7 @@ ul {
 	font-family: 'Lobster', sans-serif;
 	font-size: 30px;
 	letter-spacing: 2px;
-	color: #f20505;
+	color: #d20404;
 	background: #ccc;
 	opacity: .9;
 }
@@ -157,7 +157,7 @@ ul {
 	margin-top: 20px;
 	margin-bottom: 30px;
 	font-family: 'Lobster', sans-serif;
-	color: #f20505;
+	color: #d20404;
 }
 
 .section-description .wine-description, .wine-description li{
@@ -219,7 +219,7 @@ ul {
 	text-align: center;
 	margin-bottom: 50px;
 	font-family: 'Lobster', sans-serif;
-	color: #f20505;
+	color: #d20404;
 }
 
 .wine-list .card {
@@ -272,7 +272,7 @@ ul {
 
 .wine-list .card-title {
 	font-family: 'Lobster', sans-serif;
-	color: #f20505;
+	color: #d20404;
 	font-size: 24px;
 	font-weight: 700;
 	margin-bottom: 10px;
@@ -336,7 +336,7 @@ ul {
 	text-align: center;
 	padding: 40px;
 	font-family: 'Lobster', sans-serif;
-	color: #f20505;
+	color:#d20404;
 }
 
 .circle-list {
@@ -414,7 +414,7 @@ ul {
 .heading-text {
 	margin-top: 30px;
 	font-family: 'Lobster', sans-serif;
-	color: #f20505;
+	color: #d20404;
 }
 
 .image-gallery .column {
@@ -469,7 +469,7 @@ ul {
 label {
 	font-weight: 600;
 	font-size: 18px;
-	color: #f20505;
+	color: #d20404;
 	font-family: 'Lobster', sans-serif;
 }
 
@@ -525,7 +525,7 @@ textarea {
 	margin-bottom: 50px;
 	font-family: 'Lobster', sans-serif;
 	font-weight: bold;
-	color: #f20505;
+	color: #d20404;
 }
 
 .review {
@@ -539,7 +539,7 @@ textarea {
 
 .review i {
 	font-size: 36px;
-	color: #f20505;
+	color: #d20404;
 	margin-bottom: 20px;
 	display: block;
 }
@@ -621,7 +621,7 @@ textarea {
 .review-form h2 {
 	font-size: 2.5rem;
 	margin-bottom: 30px;
-	color: #f20505;
+	color: #d20404;
 	font-family: 'Lobster', sans-serif;
 }
 
@@ -666,7 +666,7 @@ textarea {
 /* Other buttons */
 
 .highlighted-button.button-white {
-	background-color: #ffff;
+	background-color: #fff;
 	color: #000;
 	text-decoration: none;
 }
@@ -679,7 +679,7 @@ textarea {
 
 .btn-send:hover {
 	background-color: #fff;
-	color: #f20505;
+	color:#d20404;
 }
 
 .highlighted-button.button-review {
@@ -693,7 +693,7 @@ textarea {
 	justify-content: center;
 	align-items: center;
 	text-align: center;
-	background-color: #f20505;
+	background-color: #d20404;
 	color: #fff;
 	border-radius: 5px;
 	cursor: pointer;
@@ -711,7 +711,7 @@ textarea {
 
 .highlighted-button:hover {
 	background-color: #fff;
-	color: #f20505;
+	color: #d20404;
 	border: 2px solid #000;
 }
 
@@ -733,7 +733,7 @@ footer {
   
   .footer-info h3 {
 	font-family: 'Lobster', sans-serif;
-	color: #f20505;
+	color: #d20404;
 	font-size: 2rem;
 	margin-bottom: 20px;
   }
@@ -761,7 +761,7 @@ footer {
   }
   
   .footer-social i:hover {
-	color: #f20505;
+	color:#d20404;
   }
   
   .footer-copyright {
