@@ -49,13 +49,9 @@ $(document).ready(function() {
     const email = document.getElementById("email").value;
     const review = document.getElementById("review").value;
     
-    // You can send the form data to your server using fetch() or XMLHttpRequest()
-    // Here, we'll just display a success message
     
     form.reset();
     form.appendChild(successMessage);
   });
 
-
- 
 

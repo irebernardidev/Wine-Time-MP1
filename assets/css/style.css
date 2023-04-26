@@ -403,6 +403,14 @@ ul {
 	}
 }
 
+/* Video inside the modal */
+.modal-body video {
+	width: 100%;
+	height: auto;
+  }
+  
+  
+
 .image-gallery {
 	margin-top: 20px;
 	margin-bottom: 50px;
