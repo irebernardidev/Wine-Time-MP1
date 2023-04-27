@@ -17,6 +17,7 @@
         <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDcKplwF9ovTEwOlpDf_gK_HtXGPsBt4jM"></script>
         <script src="assets/js/script.js"></script>
         <title>Wine Time</title>
+		<link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
     </head>
     <body>
         <header>
@@ -53,15 +54,15 @@
                 <form id="review-form">
                     <div class="form-group">
                         <label for="name">Name:</label>
-                        <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                        <input type="text" class="form-control" id="name" placeholder="Enter your name" required="required">
                     </div>
                     <div class="form-group">
                         <label for="email">Email address:</label>
-                        <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                        <input type="email" class="form-control" id="email" placeholder="Enter your email" required="required">
                     </div>
                     <div class="form-group">
                         <label for="review">Review:</label>
-                        <textarea class="form-control" id="review" rows="3" placeholder="Enter your review"></textarea>
+                        <textarea class="form-control" id="review" rows="3" placeholder="Enter your review" required="required"></textarea>
                     </div>
                     <button type="submit" class="btn highlighted-button button-review">Submit</button>
                     <button type="button" class="btn highlighted-button button-review" onclick="window.location.href='gallery.html'"> Back to Gallery</button>
