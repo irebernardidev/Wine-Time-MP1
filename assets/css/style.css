@@ -28,7 +28,6 @@ ul {
 .logo img {
 	max-width: 100px;
 	margin-right: 20px;
-	padding: 0
 }
 
 .navbar-toggler {
@@ -57,7 +56,7 @@ ul {
 	left: 0;
 	background-color: #fff;
 	display: none;
-	padding: 7px;
+	padding: 5px;
 }
 
 .nav-link.active {
@@ -68,7 +67,8 @@ ul {
 
 .nav-link.active,
 .nav-link:focus,
-.nav-link:hover, .dropdown-item:hover {
+.nav-link:hover,
+.dropdown-item:hover {
 	color: #d20404;
 }
 
@@ -146,12 +146,13 @@ ul {
 	opacity: .9;
 }
 
-.wine-bar-section .wine-description{
+.wine-bar-section .wine-description {
 	background-color: #f7f7f7;
 	padding: 80px 0;
 }
 
-.section-title, .container h2{
+.section-title,
+.container h2 {
 	text-align: center;
 	font-size: 36px;
 	margin-top: 20px;
@@ -160,7 +161,8 @@ ul {
 	color: #d20404;
 }
 
-.section-description .wine-description, .wine-description li{
+.section-description .wine-description,
+.wine-description li {
 	font-size: 18px;
 	line-height: 1.5;
 	margin-bottom: 30px;
@@ -178,47 +180,59 @@ ul {
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
-	.section-title, .container h2 {
-	  font-size: 32px;
+
+	.section-title,
+	.container h2 {
+		font-size: 32px;
 	}
-  
-	.section-description .wine-description, .wine-description li {
-	  font-size: 16px;
+
+	.section-description .wine-description,
+	.wine-description li {
+		font-size: 16px;
 	}
-  }
-  
-  /* Medium devices (tablets, 768px and up) */
-  @media (min-width: 768px) {
-	.section-title, .container h2 {
-	  font-size: 34px;
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+	.section-title,
+	.container h2 {
+		font-size: 34px;
 	}
-  
-	.section-description .wine-description, .wine-description li {
-	  font-size: 17px;
+
+	.section-description .wine-description,
+	.wine-description li {
+		font-size: 17px;
 	}
-  }
-  
-  /* Large devices (desktops, 992px and up) */
-  @media (min-width: 992px) {
-	.section-title, .container h2 {
-	  font-size: 36px;
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+	.section-title,
+	.container h2 {
+		font-size: 36px;
 	}
-  
-	.section-description .wine-description, .wine-description li {
-	  font-size: 18px;
+
+	.section-description .wine-description,
+	.wine-description li {
+		font-size: 18px;
 	}
-  }
-  
-  /* Extra large devices (large desktops, 1200px and up) */
-  @media (min-width: 1200px) {
-	.section-title, .container h2 {
-	  font-size: 38px;
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+	.section-title,
+	.container h2 {
+		font-size: 38px;
 	}
-  
-	.section-description .wine-description, .wine-description li {
-	  font-size: 19px;
+
+	.section-description .wine-description,
+	.wine-description li {
+		font-size: 19px;
 	}
-  }
+}
 
 /* Menu page video and wine lists styles  */
 
@@ -336,11 +350,12 @@ ul {
 	margin-bottom: 10px;
 }
 
-.wine-list .card .flip-card-back ul, .flip-card-back li,
+.wine-list .card .flip-card-back ul,
+.flip-card-back li,
 .container li {
-    list-style: none;
-    margin-bottom: 10px;
-    padding-left: 0;
+	list-style: none;
+	margin-bottom: 10px;
+	padding-left: 0;
 	font-size: 16px;
 	color: #333;
 	font-family: 'Josefin Sans', sans-serif;
@@ -382,7 +397,7 @@ ul {
 	text-align: center;
 	padding: 40px;
 	font-family: 'Lobster', sans-serif;
-	color:#d20404;
+	color: #d20404;
 }
 
 .circle-list {
@@ -453,9 +468,8 @@ ul {
 .modal-body video {
 	width: 100%;
 	height: auto;
-  }
-  
-  
+}
+
 
 .image-gallery {
 	margin-top: 20px;
@@ -543,6 +557,7 @@ textarea {
 textarea {
 	height: 120px;
 }
+
 /* Map styles */
 #map {
 	position: absolute;
@@ -598,7 +613,8 @@ textarea {
 	display: block;
 }
 
-.review p, .wine-description p {
+.review p,
+.wine-description p {
 	text-align: center;
 	font-size: 16px;
 	line-height: 1.5;
@@ -628,7 +644,8 @@ textarea {
 		padding: 20px;
 	}
 
-	.review p, .review h4 {
+	.review p,
+	.review h4 {
 		font-size: 14px;
 	}
 
@@ -701,7 +718,8 @@ textarea {
 
 /* Gallery buttons */
 .button:hover,
-.button:focus, .highlighted-button:hover {
+.button:focus,
+.highlighted-button:hover {
 	background-color: #000;
 	color: #fff;
 }
@@ -733,7 +751,7 @@ textarea {
 
 .btn-send:hover {
 	background-color: #fff;
-	color:#d20404;
+	color: #d20404;
 }
 
 .highlighted-button.button-review {
@@ -769,135 +787,142 @@ textarea {
 	border: 2px solid #000;
 }
 
-/* Footer */
+
+/* Footer styles */
 footer {
 	background-color: #f1f1f1;
 	padding: 10px 20px;
 	margin-top: 60px;
 	display: flex;
-	flex-wrap: wrap;
 	justify-content: space-between;
 	align-items: center;
 	position: relative;
-  }
+}
 
-  .footer-social {
-	margin-top: 30px; /* add margin-top */
-  }
-  
-  
-  .footer-info h3 {
+.footer-left,
+.footer-center,
+.footer-right {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.footer-left {
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+
+.footer-left .footer-info h3 {
+	margin-bottom: 10px;
 	font-family: 'Lobster', sans-serif;
 	color: #d20404;
-	font-size: 2rem;
-	margin-bottom: 20px;
-  }
-  
-  .footer-info p {
-	font-size: 1.2rem;
-	margin-bottom: 10px;
-  }
-  
-  .footer-social a {
+}
+
+.footer-right {
+	justify-content: flex-end;
+	align-items: flex-end;
+	text-align: right;
+	margin-right: 20px;
+}
+
+.footer-social {
+	margin-top: 30px;
+}
+
+.footer-copyright {
+	margin-top: 25px;
+}
+
+.footer-social a {
 	display: inline-flex;
 	align-items: center;
 	margin-right: 20px;
 	text-decoration: none;
-  }
-  
-  .footer-social a i {
+}
+
+.footer-social a i {
 	margin-right: 5px;
-  }
-  
-  .footer-social i {
+}
+
+.footer-social i {
 	font-size: 2rem;
 	color: #333;
 	transition: all .3s ease-in-out;
-  }
-  
-  .footer-social i:hover {
-	color:#d20404;
-  }
-  
-  .footer-copyright {
-	position: absolute; 
-	margin-top: 20px; 
-	bottom: 0;
-	left: 0;
-	right: 0;
-	text-align: center;
-	padding: 10px;
-  }
+}
 
-  /* Breakpoint for 1015px or below */
-@media screen and (max-width: 1015px) {
+.footer-social i:hover {
+	color: #d20404;
+}
+
+.footer-book .btn {
+	font-size: 1.2rem;
+	padding: 8px 16px;
+}
+
+@media screen and (max-width: 872px) {
 	footer {
-	  flex-direction: column;
+		flex-direction: column;
+		align-items: center;
+		padding: 5px 10px;
 	}
-  
-	.footer-info,
-	.footer-social {
-	  text-align: center;
-	  margin-bottom: 20px;
+
+	.footer-left,
+	.footer-center,
+	.footer-right {
+		text-align: center;
+		margin-bottom: 10px;
 	}
-  
+
+	.footer-left {
+		justify-content: center;
+		align-items: center;
+	}
+
+	.footer-right {
+		order: -1;
+		text-align: left;
+		margin-right: 0;
+	}
+
 	.footer-info h3 {
-	  font-size: 1.75rem;
-	  margin-bottom: 10px;
+		font-size: 1.5rem;
+		margin-bottom: 5px;
 	}
-  
+
 	.footer-info p {
-	  font-size: 1.1rem;
-	  margin-bottom: 5px;
+		font-size: 1rem;
+		margin-bottom: 3px;
 	}
-  
-	.footer-social a {
-	  margin-right: 15px;
+
+	.footer-social a,
+	.footer-center>.footer-social>a {
+		margin-right: 5px;
 	}
-  
-	.footer-social i {
-	  font-size: 1.75rem;
+
+	.footer-social i,
+	.footer-center>.footer-social i {
+		font-size: 1.5rem;
 	}
-  
-	.footer-copyright {
-	  position: absolute; 
-	  margin-top: 20px; /* Add margin top */
-	}
-  }
-  
-  @media screen and (max-width: 767px) {
-	footer {
-	  flex-direction: column;
-	  align-items: center;
-	}
-  
-	.footer-info,
-	.footer-social,
-	.footer-book {
-	  text-align: center;
-	  margin-bottom: 20px;
-	}
-  
-	.footer-info h3 {
-	  font-size: 1.5rem;
-	  margin-bottom: 10px;
-	}
-  
-	.footer-info p {
-	  font-size: 1rem;
-	  margin-bottom: 5px;
-	}
-  
-	.footer-social a {
-	  margin-right: 10px;
-	}
-  
-	.footer-social i {
-	  font-size: 1.5rem;
-	}
-  
+
 	.footer-book .btn {
-	  font-size: 1rem;
-	  padding: 5px 10px;
+		font-size: 1rem;
+		padding: 5px 10px;
+		width: auto;
 	}
-  }
+
+	.footer-center>* {
+		margin-bottom: 5px;
+	}
+
+	.footer-center>.footer-social,
+	.footer-center>.footer-book {
+		margin-bottom: 10px;
+	}
+
+	.footer-center>.footer-book .btn:hover {
+		background-color: #d20404;
+		color: #fff;
+	}
+}
