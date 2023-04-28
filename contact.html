@@ -15,6 +15,8 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
         <link rel="stylesheet" href="assets/css/style.css">
         <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDcKplwF9ovTEwOlpDf_gK_HtXGPsBt4jM"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
         <script src="assets/js/script.js"></script>
         <title>Wine Time</title>
 		<link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
@@ -59,7 +61,10 @@
                 </div>
                 <div class="col-md-6">
                     <div class="form-container">
-                        <form id="contact-form" method="post" action="contact.php">
+                        <form id="contact-form">
+
+                            <div id="form-response"></div>
+
                             <div class="messages"></div>
                             <div class="controls">
                                 <div class="form-group">
@@ -158,5 +163,7 @@
                 </div>
             </div>
         </footer>
+        <script src="assets/js/form-handler.js"></script>
+
     </body>
 </html>

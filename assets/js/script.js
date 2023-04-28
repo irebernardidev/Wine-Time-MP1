@@ -1,22 +1,35 @@
 /* Contact Form */
-$(document).ready(function() {
-    $('#contact-form').submit(function(event) {
+document.addEventListener("DOMContentLoaded", function () {
+  const contactForm = document.getElementById("contact-form");
+  const sendButton = document.querySelector(".btn-send");
+
+  contactForm.addEventListener("submit", function (event) {
       event.preventDefault();
-      $.ajax({
-        url: 'process-contact-form.php',
-        type: 'post',
-        data: $('#contact-form').serialize(),
-        success: function(data) {
-          $('#contact-form').html('<div class="alert alert-success">Thank you for your message!</div>');
-        },
-        error: function() {
-          $('#contact-form').prepend('<div class="alert alert-danger">An error occurred. Please try again later.</div>');
-        }
-      });
-    });
+      const name = document.getElementById("form_name");
+      const email = document.getElementById("form_email");
+      const message = document.getElementById("form_message");
+
+      if (name.value === "" || email.value === "" || message.value === "") {
+          alert("Please fill in all required fields.");
+      } else if (!validateEmail(email.value)) {
+          alert("Please enter a valid email address.");
+      } else {
+          sendButton.classList.add("sending");
+          setTimeout(() => {
+              window.location.href = "success.html";
+              sendButton.classList.remove("sending");
+          }, 1000);
+      }
   });
-  
-  /* Map */
+
+  function validateEmail(email) {
+      const re = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+      return re.test(String(email).toLowerCase());
+  }
+});
+
+
+/* Map */
 
   function initMap() {
     var location = {
@@ -35,20 +48,18 @@ $(document).ready(function() {
 
   /* Review Form */
   
-  const form = document.getElementById("review-form");
-  const successMessage = document.createElement("div");
-  successMessage.classList.add("alert", "alert-success");
-  successMessage.innerHTML = "Thank you for your review!";
-  
-  form.addEventListener("submit", (event) => {
-    event.preventDefault();
-    const name = document.getElementById("name").value;
-    const email = document.getElementById("email").value;
-    const review = document.getElementById("review").value;
+  document.addEventListener("DOMContentLoaded", () => {
+    const form = document.getElementById("review-form");
     
-    
-    form.reset();
-    form.appendChild(successMessage);
+    form.addEventListener("submit", (event) => {
+      event.preventDefault();
+      const name = document.getElementById("name").value;
+      const email = document.getElementById("email").value;
+      const review = document.getElementById("review").value;
+      
+      // Redirect to the thank you page
+      window.location.href = "thankyou.html";
+    });
   });
-
-
+  
+  
