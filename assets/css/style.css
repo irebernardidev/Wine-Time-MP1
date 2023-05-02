@@ -147,40 +147,40 @@ ul {
 }
 
 .wine-bar-section {
-    background-color: #f7f7f7;
-    padding: 80px 0;
+	background-color: #f7f7f7;
+	padding: 80px 0;
 }
 
 .section-title,
 .container h2 {
-    text-align: center;
-    font-size: 36px;
-    margin-top: 20px;
-    margin-bottom: 30px;
-    font-family: 'Lobster', sans-serif;
-    color: #d20404;
+	text-align: center;
+	font-size: 36px;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	font-family: 'Lobster', sans-serif;
+	color: #d20404;
 }
 
 .section-description {
-    text-align: center;
-    margin-bottom: 30px;
+	text-align: center;
+	margin-bottom: 30px;
 }
 
 .wine-description {
-    font-size: 18px;
-    line-height: 1.5;
-    margin-bottom: 30px;
-    font-family: 'Josefin Sans', sans-serif;
+	font-size: 18px;
+	line-height: 1.5;
+	margin-bottom: 30px;
+	font-family: 'Josefin Sans', sans-serif;
 }
 
 .wine-bar-image {
-    width: 100%;
-    max-width: 500px;
-    height: auto;
-    margin-top: 30px;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
+	width: 100%;
+	max-width: 500px;
+	height: auto;
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
 }
 
 /* Media Queries */
@@ -188,71 +188,71 @@ ul {
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575px) {
 
-    .section-title,
-    .container h2 {
-        font-size: 28px;
-    }
+	.section-title,
+	.container h2 {
+		font-size: 28px;
+	}
 
-    .section-description .wine-description,
-    .wine-description li {
-        font-size: 14px;
-    }
+	.section-description .wine-description,
+	.wine-description li {
+		font-size: 14px;
+	}
 }
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
 
-    .section-title,
-    .container h2 {
-        font-size: 32px;
-    }
+	.section-title,
+	.container h2 {
+		font-size: 32px;
+	}
 
-    .section-description .wine-description,
-    .wine-description li {
-        font-size: 16px;
-    }
+	.section-description .wine-description,
+	.wine-description li {
+		font-size: 16px;
+	}
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
 
-    .section-title,
-    .container h2 {
-        font-size: 34px;
-    }
+	.section-title,
+	.container h2 {
+		font-size: 34px;
+	}
 
-    .section-description .wine-description,
-    .wine-description li {
-        font-size: 17px;
-    }
+	.section-description .wine-description,
+	.wine-description li {
+		font-size: 17px;
+	}
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
 
-    .section-title,
-    .container h2 {
-        font-size: 36px;
-    }
+	.section-title,
+	.container h2 {
+		font-size: 36px;
+	}
 
-    .section-description .wine-description,
-    .wine-description li {
-        font-size: 18px;
-    }
+	.section-description .wine-description,
+	.wine-description li {
+		font-size: 18px;
+	}
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
 
-    .section-title,
-    .container h2 {
-        font-size: 38px;
-    }
+	.section-title,
+	.container h2 {
+		font-size: 38px;
+	}
 
-    .section-description .wine-description,
-    .wine-description li {
-        font-size: 19px;
-    }
+	.section-description .wine-description,
+	.wine-description li {
+		font-size: 19px;
+	}
 }
 
 
@@ -414,7 +414,7 @@ ul {
 	}
 }
 
-/* Galery page, circle styles section*/
+/* Gallery page, circle styles section */
 .circle-section-title h2 {
 	text-align: center;
 	padding: 40px;
@@ -424,22 +424,21 @@ ul {
 
 .circle-list {
 	display: flex;
-	align-items: center;
+	flex-wrap: wrap;
 	justify-content: center;
 	list-style-type: none;
 	padding: 0;
 	margin: 0;
+	gap: 20px;
 }
 
 .circle-item {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	margin-right: 70px;
-}
-
-.circle-item:last-child {
-	margin-right: 0;
+	text-align: center;
+	width: 200px;
+	box-sizing: border-box;
 }
 
 .circle-item img {
@@ -462,17 +461,17 @@ ul {
 	transform: scale(1.1);
 }
 
-@media screen and (max-width: 768px) {
+/* For screens 655px and below */
+@media screen and (max-width: 655px) {
 	.circle-list {
-		flex-wrap: wrap;
+		flex-direction: column;
+		align-items: center;
 	}
 
 	.circle-item {
-		margin-right: 0;
-		margin-bottom: 30px;
 		width: 100%;
 		max-width: 200px;
-		text-align: center;
+		margin-bottom: 30px;
 	}
 
 	.circle-item:last-child {
@@ -486,7 +485,7 @@ ul {
 	}
 }
 
-     
+
 .image-gallery {
 	margin-top: 20px;
 	margin-bottom: 50px;
@@ -543,6 +542,23 @@ ul {
 
 .image-item:hover .overlay {
 	transform: scale(1);
+}
+
+/* Video modals styles */
+.modal-body {
+	position: relative;
+	padding-bottom: 56.25%;
+	/* 16:9 Aspect Ratio */
+	height: 0;
+	overflow: hidden;
+}
+
+.responsive-video {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
 }
 
 /* Contact Form styles */
@@ -712,40 +728,40 @@ textarea {
 	font-weight: bold;
 	color: #d20404;
 	margin-bottom: 25px;
-  }
-  
-  .wine-description ul {
+}
+
+.wine-description ul {
 	padding: 0;
-  }
-  
-  .wine-description li {
+}
+
+.wine-description li {
 	font-size: 16px;
 	line-height: 1.5;
 	margin-bottom: 20px;
 	font-family: 'Josefin Sans', sans-serif;
-  }
-  
-  @media (max-width: 991px) {
+}
+
+@media (max-width: 991px) {
 	.wine-description li {
-	  text-align: center;
+		text-align: center;
 	}
-  }
-  
-  /* Wine list styles */
-  .wine-list h2 {
+}
+
+/* Wine list styles */
+.wine-list h2 {
 	font-family: 'Lobster', sans-serif;
 	font-weight: bold;
 	color: #d20404;
 	text-align: center;
 	margin-bottom: 25px;
-  }
-  
-  .card-title {
+}
+
+.card-title {
 	font-family: 'Lobster', sans-serif;
 	font-weight: bold;
 	color: #d20404;
-  }
-  
+}
+
 
 .review-form h2 {
 	font-size: 2.5rem;
@@ -770,8 +786,7 @@ textarea {
 	color: #155724;
 	padding: 10px;
 	margin-top: 20px;
-  }
-  
+}
 
 
 @media (max-width: 768px) {
@@ -784,55 +799,55 @@ textarea {
 }
 
 .thank-you-container {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: rgba(255, 255, 255, 0.9);
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    z-index: 1;
-    max-width: 600px;
-    width: 80%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: rgba(255, 255, 255, 0.9);
+	padding: 20px;
+	border-radius: 5px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+	z-index: 1;
+	max-width: 600px;
+	width: 80%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 .thank-you-container h2 {
-    font-size: 2.5rem;
-    margin-bottom: 30px;
-    color: #d20404;
-    font-family: 'Lobster', sans-serif;
+	font-size: 2.5rem;
+	margin-bottom: 30px;
+	color: #d20404;
+	font-family: 'Lobster', sans-serif;
 }
 
 .thank-you-container p {
-    font-size: 1.5rem;
-    margin-bottom: 30px;
-    color: #333;
-    font-family: 'Lato', sans-serif;
+	font-size: 1.5rem;
+	margin-bottom: 30px;
+	color: #333;
+	font-family: 'Lato', sans-serif;
 }
 
 .bg-image {
-    position: relative;
-    min-height: 100vh;
-    overflow: hidden;
+	position: relative;
+	min-height: 100vh;
+	overflow: hidden;
 }
 
 .bg-image-fixed {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
 }
 
 .bg-image-fixed img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
 }
 
 
@@ -857,7 +872,8 @@ textarea {
 
 /* Other buttons */
 
-.highlighted-button.button-white, .btn-send.sending{
+.highlighted-button.button-white,
+.btn-send.sending {
 	background-color: #fff;
 	color: #000;
 	text-decoration: none;
@@ -869,10 +885,14 @@ textarea {
 	border: 2px solid #000;
 }
 
-.btn-send:hover, .custom-button:hover {
-	background-color: #fff !important;;
-	color: #d20404 !important;;
-	border: 2px solid #000 !important;;
+.btn-send:hover,
+.custom-button:hover {
+	background-color: #fff !important;
+	;
+	color: #d20404 !important;
+	;
+	border: 2px solid #000 !important;
+	;
 }
 
 .highlighted-button.button-review {
@@ -880,7 +900,8 @@ textarea {
 }
 
 .highlighted-button,
-.btn-send, .custom-button {
+.btn-send,
+.custom-button {
 	font-size: 1.2rem;
 	display: flex;
 	justify-content: center;
