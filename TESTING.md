@@ -63,5 +63,32 @@ Manual testing was conducted on the following elements that appear on every page
 
 - The responsiveness of the Home page
 
-![Social media links](assets/videos/Home-responsiveness.gif)
+![Responsiveness](assets/videos/Home-responsiveness.gif)
 
+- Clicking on the Book a Table button will take the User to the Contact Page
+
+![Book a Table](assets/videos/Book-a-table-button.gif)
+
+# Home Page
+
+Manual testing was conducted on the following elements of the [Home Page](#):
+
+- Carousel slideshow
+
+![Carousel](assets/videos/Carousel.gif)
+
+- Clicking on the Menu and/or Appetizers buttons will open a new tab
+
+![Menu Appetizers buttons](assets/videos/Menu-Appetizers.gif)
+
+# Menu Page
+
+Manual testing was conducted on the following elements of the [Menu Page](#):
+
+- Background video responsiveness
+
+![Background video](assets/videos/background-videoclip.gif)
+
+- Flipping Wine Cards
+
+![Flipping Wine Cards](assets/videos/flipping-cards.gif)
