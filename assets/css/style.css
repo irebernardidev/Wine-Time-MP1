@@ -256,7 +256,6 @@ ul {
 }
 
 
-
 /* Menu page video and wine lists styles  */
 
 .hero {
@@ -440,6 +439,7 @@ ul {
 	text-align: center;
 	width: 200px;
 	box-sizing: border-box;
+	position: relative;
 }
 
 .circle-item img {
@@ -458,9 +458,11 @@ ul {
 	font-family: 'Josefin Sans', sans-serif;
 }
 
-.circle-item img:hover {
+.circle-item img:hover,
+.circle-item:hover img {
 	transform: scale(1.1);
 }
+
 
 /* For screens 655px and below */
 @media screen and (max-width: 655px) {
@@ -484,6 +486,25 @@ ul {
 		max-width: 150px;
 		height: auto;
 	}
+
+	.play-text {
+		font-size: 12px;
+	}
+}
+
+.play-text {
+	display: none;
+	position: absolute;
+	background-color: rgba(0, 0, 0, 0.7);
+	color: #fff;
+	padding: 5px 10px;
+	border-radius: 5px;
+	font-size: 14px;
+	white-space: nowrap;
+}
+
+.circle-item:hover .play-text {
+	display: block;
 }
 
 
@@ -855,52 +876,49 @@ textarea {
 
 /* Successuful messsage styles */
 .background-container {
-    position: relative;
-    min-height: calc(100vh - 100px - 100px); /* Replace HEADER_HEIGHT and FOOTER_HEIGHT with the actual heights */
+	position: relative;
+	min-height: calc(100vh - 100px - 100px);
+	/* Replace HEADER_HEIGHT and FOOTER_HEIGHT with the actual heights */
 }
 
 .background-image {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    z-index: -1; /* places the image behind the content */
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	z-index: -1;
+	/* places the image behind the content */
 }
 
 .container.mt-5 {
-    position: relative;
-    z-index: 1;
-    background-color: rgba(255, 255, 255, 0.8);
-    padding: 20px;
-    border-radius: 15px;
-    height: 100%;
+	position: relative;
+	z-index: 1;
+	background-color: rgba(255, 255, 255, 0.8);
+	padding: 20px;
+	border-radius: 15px;
+	height: 100%;
 }
 
 
 .row {
-    min-height: 50vh;
+	min-height: 50vh;
 }
 
 .text-container {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: rgba(255, 255, 255, 0.8);
-    padding: 20px;
-    border-radius: 15px;
-    width: 100%;
-    max-width: 600px; /* Set a max-width for responsiveness */
-    text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: rgba(255, 255, 255, 0.8);
+	padding: 20px;
+	border-radius: 15px;
+	width: 100%;
+	max-width: 600px;
+	/* Set a max-width for responsiveness */
+	text-align: center;
 }
-
-
-
-
-
-
 
 
 /* Gallery buttons */
