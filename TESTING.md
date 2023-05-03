@@ -71,7 +71,7 @@ Manual testing was conducted on the following elements that appear on every page
 
 # Home Page
 
-Manual testing was conducted on the following elements of the [Home Page](#):
+Manual testing was conducted on the following elements of the [Home Page](index.html):
 
 - Carousel slideshow
 
@@ -81,9 +81,9 @@ Manual testing was conducted on the following elements of the [Home Page](#):
 
 ![Menu Appetizers buttons](assets/videos/Menu-Appetizers.gif)
 
-# Menu Page
+# Our Wines
 
-Manual testing was conducted on the following elements of the [Menu Page](#):
+Manual testing was conducted on the following elements of the [Menu Page](menu.html):
 
 - Background video responsiveness
 
@@ -92,3 +92,17 @@ Manual testing was conducted on the following elements of the [Menu Page](#):
 - Flipping Wine Cards
 
 ![Flipping Wine Cards](assets/videos/flipping-cards.gif)
+
+# Gallery Page
+
+Manual testing was conducted on the following elements of the [Gallery Page](gallery.html):
+
+- Gallery page responsiveness
+
+![Gallery responsiveness](assets/videos/Gallery-responsiveness.gif)
+
+- Producer Spotlights Circle Images Animation and Video Modal:
+
+![Circle Images](assets/videos/Circle-images.gif)
+
+![Video Modals](assets/videos/Video-modals.gif)
