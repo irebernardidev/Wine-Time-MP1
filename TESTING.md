@@ -54,4 +54,14 @@
 Manual testing was conducted on the following elements that appear on every page:
 
 - Hovering over the Hamburger Menu will trigger hover effect, highlighting the icon for the user.
-![Navbar hover effect](assets/videos/Navbar-hover-effect.mp4)
+
+![Navbar hover effect](assets/videos/Navbar-hover-effect.gif)
+
+- Clicking on the Social Media links will open a new tab
+
+![Social media links](assets/videos/Socialmedia-links.gif)
+
+- The responsiveness of the Home page
+
+![Social media links](assets/videos/Home-responsiveness.gif)
+
