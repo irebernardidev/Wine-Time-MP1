@@ -1,5 +1,5 @@
 # Wine Time
-
+![Wine Time](assets/images/wine-time-amiresponsive.png)
 Find the final project here: [Wine Time MP1](https://irebernardidev.github.io/Wine-Time-MP1/)
 
 ## Table of Contents
@@ -194,14 +194,118 @@ Wine Bar Section: This section provides a description of the wine bar and its ph
 
 
 
-### Existing Features
-The website includes the features listed above, all of which have been fully implemented and tested.
+# Existing Features
 
-### Features to Implement in the Future
+## Favicon
+The favicon is located in the assets/images/ directory and is set as favicon.ico in the head section. Favicons help users quickly identify a website when multiple tabs are open or when searching through bookmarks.
+
+## Header
+Appearing on every page for brand recognition.
+
+## Navigation Bar
+Appearing on every page for a consistently easy and intuitive navigable system on larger screens.
+
+## Hamburger Menu
+Appearing on every for a consistently easy and intuitive navigable system on smaller screens.
+
+## Social Media Icons
+Appearing on every page, the icons are appropriate representations of the Social Media platforms, linking users to the various platforms. The icons appear in the centre of the footer.
+
+## Carousel
+The website features a carousel (slideshow) with images and captions that showcase different aspects of Wine Time, such as vineyards, wine selections, and the overall atmosphere. This provides an engaging and visually appealing introduction to the wine bar.
+
+## Wine Bar Section
+This section highlights the philosophy and offerings of Wine Time, including a brief description, a wine menu, and appetizers. It provides an overview of what visitors can expect when they visit the wine bar.
+
+## Wine Menu and Appetizers Buttons
+The Wine Menu and Appetizers buttons in the README.md file are direct links to the PDF files of the respective menus. These buttons provide quick and easy access to the detailed information about the offerings at Wine Time.
+
+* Wine Menu: The Wine Menu button links to a PDF file ![menu1](assets/images/menu1.pdf) that contains a list of the wines available at Wine Time. The menu may include details like wine names, descriptions, regions, and prices, allowing visitors to explore and choose from a curated selection of wines.
+
+* Appetizers: The Appetizers button links to another PDF file ![menu2](assets/images/menu2.pdf) that showcases the food offerings at Wine Time. This menu typically includes a variety of small plates, finger foods, or other light fare that pairs well with wine, enhancing the overall experience for visitors. The menu may include dish names, descriptions, and prices.
+
+## Hero Section
+* Full-screen background video that plays automatically, in a loop, and muted.
+
+* Overlaying the video is the hero content with a welcome message and a brief description of the wine bar.
+
+## Wine Description Section
+A brief introduction to the different types of wines available at Wine Time: Red Wines, White Wines, and Sparkling Wines.
+
+## Wine List Section
+* Displays "Our Wines of the Week" using a Bootstrap grid layout.
+* Three flip cards showcasing Red Wines, White Wines, and Sparkling Wines with an image and a description on the front, and a list of featured wines with their prices on the back.
+
+## Video Modals
+The website includes three video modals that can be accessed by clicking on the respective images in the Producer Spotlights section. Each modal features a video about a specific wine producer.
+
+## Photo Gallery
+The photo gallery displays a collection of images representing the atmosphere and offerings at Wine Time. Images are organized into four columns with captions visible on hover.
+
+## Write a Review Button
+A call-to-action button is placed below the photo gallery, prompting users to write a review of their experience at Wine Time.
+
+## Proucer Spotlights
+This section showcases three featured wine producers with clickable images that open video modals:
+
+1. Guardastelle Vineyard
+2. Montefioralle Winery
+3. Chianti Winery
+
+## Google Map and Contact Form
+The Google Map and Contact Form feature consists of two main components: the Google Map and the Contact Form. These components are placed side by side within a responsive container, ensuring they display correctly on various screen sizes.
+
+### Google Map
+The Google Map is embedded in the left column using the Google Maps API. It displays the exact location of the wine bar, providing users with a visual reference to help them find the establishment. The map can be interacted with, allowing users to zoom in or out, move around the map, and even get directions to the wine bar. The API key for the Google Maps API is included in the script tag in the head section of the HTML file.
+
+### Contact Form
+The Contact Form is located in the right column and is designed to allow users to get in touch with the wine bar easily. The form consists of the following input fields:
+
+1. Name (required): A text input field for users to enter their name.
+2. Email (required): An email input field for users to enter their email address. This field includes email validation to ensure a valid email address is provided.
+3. Message (required): A textarea input field for users to enter their message.
+
+Additionally, there is a submit button with the label "Send message". When the user clicks this button, the form is submitted, and a script (form-handler.js) processes the form submission. It checks for any validation errors and displays them to the user if necessary. If the form submission is successful, the user receives a response message.
+
+This feature allows the Wine Time website to provide an interactive and user-friendly way for visitors to locate the wine bar and get in touch with any questions, comments, or reservations.
+
+## Customer Review Section
+The Customer Reviews section displays three reviews from customers who have visited the wine bar. Each review includes the customer's image, name, and a quote. This section helps to showcase positive feedback from satisfied customers.
+
+## Form Submission Success Page
+The Form Submission Success Page is designed to provide feedback to users after they have successfully submitted the contact form on the Wine Time website. This page consists of the following elements:
+
+1. Background Image: A full-screen background image (background-image.jpg) is displayed on this page. It serves as a visual backdrop for the content and adds aesthetic appeal.
+
+2. Text Container: A container element holds the text and button. It is positioned over the background image and contains the following elements:
+
+* Heading: A large heading (h1) with the text "Form Submission Successful" informs the user that their form submission was successful.
+
+* Subheading: A subheading (p with class "lead") provides additional information to the user, stating, "Thank you for contacting us. We will get back to you shortly." This message reassures the user that their inquiry has been received and that they can expect a response from the Wine Time team.
+
+* Back to Contact Page Button: A button (with class "btn custom-button") is placed below the subheading. When clicked, it redirects the user back to the contact page. This button provides an easy way for users to return to the contact page if they wish to review their submission or submit another inquiry.
+
+The Form Submission Success Page is designed with user experience in mind, as it provides clear feedback on the form submission's outcome and offers a seamless way to navigate back to the contact page. This page helps build trust and credibility with the user by promptly acknowledging their inquiry and assuring them of a timely response from the Wine Time team.
+
+
+## Write a Review Page
+### Review Form
+The review form allows users to submit a review about their experience at Wine Time. The form contains fields for the user's name, email address, and review text. Form validation is performed using custom JavaScript.
+
+### Background Image
+The background image features an assortment of wine bottles, adding visual interest and reinforcing the theme of the website.
+
+## Thank You Page
+The Thank You page is displayed when a user submits a review. Its purpose is to acknowledge the user's input, express gratitude for their feedback, and provide an option to return to the home page.
+
+# Features to Implement in the future
 Additional features that could be added to the website in the future include:
 - Integration with social media platforms
 - Live chat support for customer queries
 - Online menu ordering
+
+[Back to top](#)
+
 
 ## Issues and Bugs
 No issues or bugs have been identified during the testing phase.
