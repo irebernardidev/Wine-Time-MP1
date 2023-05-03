@@ -193,7 +193,6 @@ Wine Bar Section: This section provides a description of the wine bar and its ph
 ![Screenshot of responsive footer](assets/images/footer-iPadmini.png)
 
 
-
 # Existing Features
 
 ## Favicon
@@ -298,7 +297,7 @@ The background image features an assortment of wine bottles, adding visual inter
 ## Thank You Page
 The Thank You page is displayed when a user submits a review. Its purpose is to acknowledge the user's input, express gratitude for their feedback, and provide an option to return to the home page.
 
-# Features to Implement in the future
+## Features to Implement in the future
 Additional features that could be added to the website in the future include:
 - Integration with social media platforms
 - Live chat support for customer queries
@@ -311,6 +310,7 @@ Additional features that could be added to the website in the future include:
 No issues or bugs have been identified during the testing phase.
 
 ## Technologies Used
+---
 The following technologies were used in the development of the website:
 
 ### Main Languages Used
@@ -326,31 +326,49 @@ The following technologies were used in the development of the website:
 - [Font Awesome 6.3.0](https://fontawesome.com/) was used on almost all pages throughout the website to import icons (e.g. social media icons) for UX purposes.
 - [Am I Responsive?](https://ui.dev/amiresponsive) was used in order to see responsive design throughout the process and to generate mockup imagery to be used.
 
-
-## Testing
+# Testing
 The website was tested thoroughly to ensure it is fully functional and user-friendly. The testing phase involved manual testing on different devices and browsers.
+
+Testing information can be found in a separate testing [file](#)
 
 ## Deployment
 The website was deployed on GitHub pages.
 
 ### Deploying on GitHub Pages
 To deploy the website on GitHub Pages, the following steps were followed:
-- Create a new repository on GitHub
-- Add the necessary files to the repository
-- Go to the settings page of the repository and scroll down to the GitHub Pages section
-- Select the main branch and the root folder, then click save
-- The website will now be live at the URL provided in the GitHub Pages section
+1. Create a new repository on GitHub
+2. Add the necessary files to the repository
+3. Go to the settings page of the repository and scroll down to the GitHub Pages section
+4. Select the main branch and the root folder, then click save
+5. The website will now be live at the URL provided in the GitHub Pages section
+
 
 ## Credits
-The website was built by the developer. The webpages use images from Freepik and Adobe free licence libreries, and icons from Font Awesome.
+The website was built by the developer. The webpages use images from Freepik, Pixabay and Adobe Stock free licence libreries, and icons from Font Awesome.
+
 ### Content
-All content was written by the website developer.
+
+Some of the text used in the the various pages were borrowed and adapted from various sites, listed below.
+
+- [The Remedy London](https://theremedylondon.com/)
 
 ### Media
-All images and/or videos used on the website were obtained from free stock image and video websites.
+
+Almost all images and videos were sourced from the various artists from [Adobe Stock](https://stock.adobe.com/uk/), [Freepik](https://www.freepik.com/) and [Pixabay](https://pixabay.com/videos/) free licenced.
 
 ### Code
-The developer consulted multiple sites, including W3Schools, to better understand and implement code. All code copied and edited was referenced in the website's source code.
+
+The developer consulted multiple sites in order to better understand the code they were trying to implement. The following sites were used on a more regular basis:
+
+- [Stack Overflow](https://stackoverflow.com/)
+- [W3Schools](https://www.w3schools.com/)
+- [Geeks for Geeks](https://www.geeksforgeeks.org/)
+
+[Back to top](#top)
 
 ## Acknowledgements
-The developer would like to acknowledge the support and guidance provided by their mentor during the development of this project.
+
+I would like to thank my course mate Olly and my friends and family for their valued opinions and critic during the process of design and development, and I would like to thank my tutor, Peter, and my mentor, Seun, for their invaluable help and guidance throughout the process.
+
+[Back to top](#top)
+
