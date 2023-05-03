@@ -54,7 +54,4 @@
 Manual testing was conducted on the following elements that appear on every page:
 
 - Hovering over the Hamburger Menu will trigger hover effect, highlighting the icon for the user.
-<video width="320" height="240" controls>
-  <source src="assets/videos/Navbar-hover-effect.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+![Navbar hover effect](assets/videos/Navbar-hover-effect.mp4)
