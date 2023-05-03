@@ -1,7 +1,7 @@
 # Wine Time - Testing
-Main README.md file
+[Main README.md file](https://github.com/irebernardidev/Wine-Time-MP1/blob/main/README.md)
 
-[View live project](#)
+[View live project](https://irebernardidev.github.io/Wine-Time-MP1/)
 
 [View GitHub repository](#)
 
@@ -54,3 +54,7 @@ Main README.md file
 Manual testing was conducted on the following elements that appear on every page:
 
 - Hovering over the Hamburger Menu will trigger hover effect, highlighting the icon for the user.
+<video width="320" height="240" controls>
+  <source src="assets/videos/Navbar-hover-effect.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
