@@ -415,11 +415,12 @@ ul {
 }
 
 /* Gallery page, circle styles section */
-.circle-section-title h2 {
+.circle-section-title h2, .thank-you-message h2, .review-form h2 {
 	text-align: center;
 	padding: 40px;
 	font-family: 'Lobster', sans-serif;
 	color: #d20404;
+	font-size: 32px;
 }
 
 .circle-list {
@@ -717,11 +718,6 @@ textarea {
 }
 
 /* Review form styles*/
-body, html {
-    height: 100%;
-    margin: 0;
-}
-
 .bg-image {
     position: absolute;
     top: 0;
@@ -733,9 +729,8 @@ body, html {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+	background-attachment: fixed;
 }
-
-
 
 .background {
     width: 100%;
@@ -748,6 +743,7 @@ body, html {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+	position: relative;
 }
 
 .main-content {
@@ -767,7 +763,7 @@ body, html {
     max-width: 600px;
     width: 90%;
 	margin: 20px 0;
-    max-height: calc(100vh - 100px); /* Adjust this value to fit your header and footer height */
+    max-height: calc(100vh - 100px); 
     overflow-y: auto;
 }
 
@@ -794,7 +790,6 @@ body, html {
         width: 40%;
     }
 }
-
 
 /* Wine description styles */
 .wine-description h2 {
@@ -836,95 +831,52 @@ body, html {
 	color: #d20404;
 }
 
-/* Review form styles */
-.review-form h2 {
-	font-size: 2.5rem;
-	margin-bottom: 30px;
-	color: #d20404;
-	font-family: 'Lobster', sans-serif;
+
+/* Thank You Page Styles */
+.thank-you-message {
+	background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    z-index: 1;
+    text-align: center;
+    max-width: 600px;
+    width: 90%;
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-.review-form label {
-	font-weight: bold;
-	margin-bottom: 10px;
+.thank-you-message p {
+font-family: 'Josefine', sans-serif;
+color: #666; 
 }
 
-.review-form button {
-	margin-top: 20px;
-	margin-bottom: 20px;
+@media (min-width: 576px) {
+    .thank-you-message {
+        width: 80%;
+    }
 }
 
-.alert-success {
-	background-color: #d4edda;
-	border-color: #c3e6cb;
-	color: #155724;
-	padding: 10px;
-	margin-top: 20px;
+@media (min-width: 768px) {
+    .thank-you-message {
+        width: 60%;
+    }
 }
 
-
-@media (max-width: 768px) {
-	.review-form {
-		margin-top: 30px;
-		padding: 20px;
-		border: 1px solid #ccc;
-		border-radius: 5px;
-	}
-}
-/* Thank you page styles */
-
-.thank-you-container {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	background-color: rgba(255, 255, 255, 0.9);
-	padding: 20px;
-	border-radius: 5px;
-	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-	z-index: 1;
-	max-width: 600px;
-	width: 80%;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
+@media (min-width: 992px) {
+    .thank-you-message {
+        width: 50%;
+    }
 }
 
-.thank-you-container h2 {
-	font-size: 2.5rem;
-	margin-bottom: 30px;
-	color: #d20404;
-	font-family: 'Lobster', sans-serif;
+@media (min-width: 1200px) {
+    .thank-you-message {
+        width: 40%;
+    }
 }
-
-.thank-you-container p {
-	font-size: 1.5rem;
-	margin-bottom: 30px;
-	color: #333;
-	font-family: 'Lato', sans-serif;
-}
-
-.bg-image {
-	position: relative;
-	min-height: 100vh;
-	overflow: hidden;
-}
-
-.bg-image-fixed {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	z-index: -1;
-}
-
-.bg-image-fixed img {
-	width: 100%;
-	height: 100%;
-	object-fit: cover;
-}
-
 /* Successuful messsage styles */
 .background-container {
 	position: relative;
@@ -951,7 +903,6 @@ body, html {
 	height: 100%;
 }
 
-
 .row {
 	min-height: 50vh;
 }
@@ -966,10 +917,8 @@ body, html {
 	border-radius: 15px;
 	width: 100%;
 	max-width: 600px;
-	/* Set a max-width for responsiveness */
 	text-align: center;
 }
-
 
 /* Gallery buttons */
 .button:hover,
@@ -991,7 +940,6 @@ body, html {
 }
 
 /* Other buttons */
-
 .highlighted-button.button-white,
 .btn-send.sending {
 	background-color: #fff;
@@ -1015,13 +963,9 @@ body, html {
 	;
 }
 
-.highlighted-button.button-review {
-	display: inline-block;
-}
-
 .highlighted-button,
 .btn-send,
-.custom-button {
+.custom-button, .highlighted-button.button-review {
 	font-size: 1.2rem;
 	display: flex;
 	justify-content: center;
@@ -1049,12 +993,11 @@ body, html {
 	border: 2px solid #000;
 }
 
-
 /* Footer styles */
 footer {
 	background-color: #f1f1f1;
 	padding: 10px 20px;
-	margin-top: 60px;
+	margin-top: 0;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
