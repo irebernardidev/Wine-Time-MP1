@@ -28,6 +28,8 @@ ul {
 .logo img {
 	max-width: 100px;
 	margin-right: 20px;
+	width: 150px;
+	height: auto;
 }
 
 .navbar-toggler {
@@ -190,7 +192,6 @@ ul {
 	display: block;
 }
 
-/* Media Queries */
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575px) {
 
@@ -261,7 +262,6 @@ ul {
 	}
 }
 /* Menu page video and wine lists styles  */
-
 .hero {
 	position: relative;
 	height: 100vh;
@@ -469,7 +469,6 @@ ul {
 	cursor: pointer;
 }
 
-
 /* For screens 655px and below */
 @media screen and (max-width: 655px) {
 	.circle-list {
@@ -490,11 +489,19 @@ ul {
 	.circle-item img {
 		width: 100%;
 		max-width: 150px;
-		height: auto;
+		height: 150px;
 	}
 
 	.play-text {
 		font-size: 12px;
+	}
+}
+
+@media screen and (max-width: 350px) {
+	.circle-item img {
+		width: 100%;
+		max-width: 120px;
+		height: 120px;
 	}
 }
 
@@ -781,7 +788,6 @@ textarea {
     }
 }
 
-
 /* Review form styles*/
 .content-wrapper {
     display: flex;
@@ -836,7 +842,7 @@ textarea {
 }
 
 /* Wine description styles */
-.wine-description h2 {
+.wine-list h2, .wine-description h2 {
 	font-family: 'Lobster', sans-serif;
 	font-weight: bold;
 	color: #d20404;
@@ -858,21 +864,6 @@ textarea {
 	.wine-description li {
 		text-align: center;
 	}
-}
-
-/* Wine list styles */
-.wine-list h2 {
-	font-family: 'Lobster', sans-serif;
-	font-weight: bold;
-	color: #d20404;
-	text-align: center;
-	margin-bottom: 25px;
-}
-
-.card-title {
-	font-family: 'Lobster', sans-serif;
-	font-weight: bold;
-	color: #d20404;
 }
 
 /* Thank You Page and Successful Page Styles */
@@ -958,20 +949,17 @@ color: #666;
 	text-decoration: none;
 }
 
-.highlighted-button.button-white:hover {
-	background-color: #000;
-	color: #fff;
-	border: 2px solid #000;
+.highlighted-button.button-white:hover{
+background-color: #000;
+color:#fff;
+border: 2px solid #000;
 }
 
 .btn-send:hover,
-.custom-button:hover {
-	background-color: #fff !important;
-	;
-	color: #d20404 !important;
-	;
-	border: 2px solid #000 !important;
-	;
+.custom-button:hover, .highlighted-button:hover, .highlighted-button.button-review:hover {
+	background-color: #fff;
+	color: #d20404;
+	border: 2px solid #000; 
 }
 
 .highlighted-button,
@@ -998,21 +986,19 @@ color: #666;
 	margin-bottom: 30px;
 }
 
-.highlighted-button:hover {
-	background-color: #fff;
-	color: #d20404;
-	border: 2px solid #000;
-}
-
 /* Footer styles */
 footer {
 	background-color: #f1f1f1;
 	padding: 10px 20px;
-	margin-top: 0;
+	margin-top: 60px;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	position: relative;
+}
+
+.thank-success-page {
+	margin-top: 0;
 }
 
 .footer-left,
@@ -1124,21 +1110,20 @@ footer {
 
 	.footer-book .btn {
 		font-size: 1rem;
-		padding: 5px 10px;
+		padding:5px 10px;
 		width: auto;
-	}
-
-	.footer-center>* {
-		margin-bottom: 5px;
-	}
-
-	.footer-center>.footer-social,
-	.footer-center>.footer-book {
-		margin-bottom: 10px;
-	}
-
-	.footer-center>.footer-book .btn:hover {
-		background-color: #d20404;
-		color: #fff;
-	}
-}
+		}
+		.footer-center>* {
+			margin-bottom: 5px;
+		}
+		
+		.footer-center>.footer-social,
+		.footer-center>.footer-book {
+			margin-bottom: 10px;
+		}
+		
+		.footer-center>.footer-book .btn:hover {
+			background-color: #d20404;
+			color: #fff;
+		}
+}		
