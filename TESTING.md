@@ -9,8 +9,8 @@
 1. [Testing User Stories](#testing-user-stories)
 2. [Manual Testing](#manual-testing)
 3. [Automated Testing](#automated-testing)
-* [Code Validation](#code-validation)
-* [Browser Validation](#browser-validation)
+   * [Code Validation](#code-validation)
+   * [Browser Validation](#browser-validation)
 4.  [User Testing](#user-testing)
 
 ## Testing User Stories

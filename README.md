@@ -5,25 +5,26 @@ Find the final project here: [Wine Time MP1](https://irebernardidev.github.io/Wi
 ## Table of Contents
 - [Introduction](#introduction)
 - [UX](#ux)
-- [Ideal User Demographic](#ideal-user-demographic)
-- [User Stories](#user-stories)
-- [Development Planes](#development-planes)
-- [Design](#design)
+  * [Ideal User Demographic](#ideal-user-demographic)
+  * [User Stories](#user-stories)
+  * [Development Planes](#development-planes)
+  * [Design](#design)
 - [Features](#features)
-- [Design Features](#design-features)
-- [Existing Features](#existing-features)
-- [Features to Implement in the Future](#features-to-implement-in-the-future)
+  * [Design Features](#design-features)
+  * [Existing Features](#existing-features)
+  * [Features to Implement in the Future](#features-to-implement-in-the-future)
 - [Issues and Bugs](#issues-and-bugs)
 - [Technologies Used](#technologies-used)
-- [Main Languages Used](#main-languages-used)
-- [Frameworks, Libraries & Programs Used](#frameworks-libraries--programs-used)
+  * [Main Languages Used](#main-languages-used)
+  * [Frameworks, Libraries & Programs Used](#frameworks-libraries--programs-used)
 - [Testing](#testing)
+  * [TESTING.md](#TESTING.md)
 - [Deployment](#deployment)
-- [Deploying on GitHub Pages](#deploying-on-github-pages)
+  * [Deploying on GitHub Pages](#deploying-on-github-pages)
 - [Credits](#credits)
-- [Content](#content)
-- [Media](#media)
-- [Code](#code)
+  * [Content](#content)
+  * [Media](#media)
+  * [Code](#code)
 - [Acknowledgements](#acknowledgements)
 
 ## Introduction
@@ -52,19 +53,19 @@ The website was designed to cater to the needs of different users, including:
 - Wine enthusiast goals
 
 ### Current User Goals
-- See regular updates to information, such as prices and wine selection available
-- Easily navigate through the site and access necessary information
-- Easily navigate to previously viewed content with minimal steps
+1. See regular updates to information, such as prices and wine selection available
+2. Easily navigate through the site and access necessary information
+3. Easily navigate to previously viewed content with minimal steps
 
 ### New User Goals
-- Easily navigate the site intuitively
-- Access easily accessible and relevant information
-- Engage with attractive and relevant visuals and colour schemes that work with the content
+1. Easily navigate the site intuitively
+2. Access easily accessible and relevant information
+3. Engage with attractive and relevant visuals and colour schemes that work with the content
 
 ### Wine Enthusiast Goals
-- Easily readable wine lists and prices
-- Accessible and relevant information
-- See images and/or videos of the business
+1. Easily readable wine lists and prices
+2. Accessible and relevant information
+3. See images and/or videos of the business
 
 ## Development Planes
 To create a comprehensive website that answers the above user stories and identifies the functionality of the site.
@@ -72,40 +73,50 @@ To create a comprehensive website that answers the above user stories and identi
 ### Strategy Plane
 This incorporates user needs as well as product objectives. This website focuses on the following target audience divided into three main categories:
 
-Roles:
-- Current users
-- New users
-- Wine enthusiasts
+- Roles:
+  * Current users
+  * New users
+  * Wine enthusiasts
 
-Demographic:
-- Over 18
-- Londoners, residing in London and visitors
-- Wine enthusiasts, pub goers, and non-drinkers
+- Demographic:
+  * Over 18
+  * Londoners, residing in London and visitors
+  * Wine enthusiasts, pub goers, and non-drinkers
 
-Psychography:
-- Lifestyle
-- Interest in wines
-- Like socializing
-- Outgoing, sociable, and multicultural
-- Values include being open-minded and having a sense of community
+- Psychography:
+  * Lifestyle:
+    * Interest in wines
+    * Active
+  * Personality/Attitudes:
+    * Like socializing
+    * Outgoing, sociable, and multicultural
+  * Values:
+    * Values include being open-minded and having a sense of community
 
 The website needs to enable the user to:
-- Retrieve desired information (wine origin, food options, wine list and prices, what the bar looks like, location of business and working hours, and make an online booking enquiry)
+- Retrieve desired information:
+  * Wines origin, wine list and prices
+  * Food options
+  * What the bar looks like, location of business and working hours
+  * Make an online booking enquiry
+  * Leave a review
 - Gather customer details to make reservations
+- Gather customer review in order to improve the service
 
 ### Scope Plane
 This defines the requirements based on the goals established on the strategy plane, categorizing them into content and functionality requirements.
+- Content Requirements:
+  * The user will be looking for:
+    * Information on what type of bar it is
+    * What services are available
+    * Wines selection and prices
+    * Where to find the bar
+    * Pictures of the bar
 
-Content Requirements:
-- Information on what type of bar it is
-- What services are available
-- Wines selection and prices
-- Where to find the bar
-- Pictures of the bar
-
-Functionality Requirements:
-- Be able to easily navigate the site to find the information they require
-- Be able to contact the site to make a reservation
+- Functionality Requirements:
+  * The user will be able to:
+    * Be able to easily navigate the site to find the information they require
+    * Be able to contact the site to make a reservation
 
 #### Structure
 The information was organized into a hierarchical tree structure or site map to ensure efficient and easy navigation for users.
@@ -116,7 +127,7 @@ The information was organized into a hierarchical tree structure or site map to 
 ##### Skeleton
 Wireframes were created using a desktop version of Balsamiq to showcase the website's appearance and ensure positive user experience.
 
-Please refer to [mockups PDF](https://github.com/irebernardidev/Wine-Time-project1/blob/main/Mockups%20MP1.pdf) for detailed designs.
+Please refer to ![Mockups-MP1](assets/wireframes/Mockups-MP1.pdf) for detailed designs.
 
 
 ### Design
@@ -298,10 +309,10 @@ The background image features an assortment of wine bottles, adding visual inter
 The Thank You page is displayed when a user submits a review. Its purpose is to acknowledge the user's input, express gratitude for their feedback, and provide an option to return to the home page.
 
 ## Features to Implement in the future
-Additional features that could be added to the website in the future include:
-- Integration with social media platforms
-- Live chat support for customer queries
-- Online menu ordering
+- Additional features that could be added to the website in the future include:
+   * Integration with social media platforms
+   * Live chat support for customer queries
+   * Online menu ordering
 
 [Back to top](#)
 
@@ -348,13 +359,13 @@ The website was built by the developer. The webpages use images from Freepik, Pi
 
 ### Content
 
-Some of the text used in the the various pages were borrowed and adapted from various sites, listed below.
+- Some of the text used in the the various pages were borrowed and adapted from various sites, listed below.
 
-- [The Remedy London](https://theremedylondon.com/)
+  * [The Remedy London](https://theremedylondon.com/)
 
 ### Media
 
-Almost all images and videos were sourced from the various artists from [Adobe Stock](https://stock.adobe.com/uk/), [Freepik](https://www.freepik.com/) and [Pixabay](https://pixabay.com/videos/) free licenced.
+- Almost all images and videos were sourced from the various artists from [Adobe Stock](https://stock.adobe.com/uk/), [Freepik](https://www.freepik.com/) and [Pixabay](https://pixabay.com/videos/) free licenced.
 
 ### Code
 
