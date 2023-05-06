@@ -127,7 +127,7 @@ The information was organized into a hierarchical tree structure or site map to 
 ##### Skeleton
 Wireframes were created using a desktop version of Balsamiq to showcase the website's appearance and ensure positive user experience.
 
-Please refer to ![Mockups-MP1](assets/wireframes/Mockups-MP1.pdf) for detailed designs.
+Please refer to [Mockups-MP1](assets/wireframes/Mockups-MP1.pdf) for detailed designs.
 
 
 ### Design
@@ -140,8 +140,8 @@ The website uses a consistent colour palette throughout all pages to ensure visu
 
 The overall design of the webpage is simple and elegant, with a focus on showcasing the wine bar's offerings in a visually appealing way. 
 
-### Colour Palette [![Colour Palette](assets/images/color-palette.png)](#design)
-[![Colour Palette](assets/images/color-palette2.png)](#design)
+### Colour Palette [![Colour Palette](assets/images/colour-palette1.png)](#design)
+[![Colour Palette](assets/images/colour-palette2.png)](#design)
 
 - ### Typography
 
@@ -168,16 +168,16 @@ The Footer stays at the bottom of the screen at all times, on all screen sizes. 
 Each page on the website has a consistent design and layout, ensuring ease of use and a seamless user experience.
 
 
-The website includes the following features:
-- Easy navigation system
-- Responsive design for all devices
-- Information on the type of bar and services available
-- Wine selection and prices
-- Food menu and prices
-- Location of the bar and working hours
-- Pictures of the bar
-- Online booking enquiry form
-- Review Form
+- The website includes the following features:
+  * Easy navigation system
+  * Responsive design for all devices
+  * Information on the type of bar and services available
+  * Wine selection and prices
+  * Food menu and prices
+  * Location of the bar and working hours
+  * Pictures of the bar
+  * Online booking enquiry form
+  * Review Form
 
 ### [General Features](#general-features)
 [Navigation bar](#navigation-bar): The navbar is responsive and adapts to different screen sizes. It includes a logo, a button for toggling the navbar menu, and links to the other pages on the website.The active page should appear inside a whiter box with a black border, the the other pages should highlight in red when hovered over, this applies to both desktop and collapsible nav bars.
@@ -198,7 +198,7 @@ Wine Bar Section: This section provides a description of the wine bar and its ph
 
 [Footer](#footer): The footer contains information about the wine bar's location and hours, as well as links to its social media pages. It also includes a call-to-action button for booking a table.
 
-![Screenshot of responsive footer](assets/images/footer.png)
+![Screenshot of responsive footer](assets/images/Browser-footer.png)
 ![Screenshot of responsive footer](assets/images/footer-bookatable-hover.png)
 ![Screenshot of responsive footer](assets/images/footer-iPhone.png)
 ![Screenshot of responsive footer](assets/images/footer-iPadmini.png)
@@ -209,8 +209,15 @@ Wine Bar Section: This section provides a description of the wine bar and its ph
 ## Favicon
 The favicon is located in the assets/images/ directory and is set as favicon.ico in the head section. Favicons help users quickly identify a website when multiple tabs are open or when searching through bookmarks.
 
+![Screenshot of favicon](assets/images/favicon.png)
+
 ## Header
 Appearing on every page for brand recognition.
+
+## Logo
+The Logo was drawn by the developer using [Illustrator](https://www.adobe.com/products/illustrator.html)
+
+![Screenshot of the logo](assets/images/ss-logo.png)
 
 ## Navigation Bar
 Appearing on every page for a consistently easy and intuitive navigable system on larger screens.
@@ -224,15 +231,17 @@ Appearing on every page, the icons are appropriate representations of the Social
 ## Carousel
 The website features a carousel (slideshow) with images and captions that showcase different aspects of Wine Time, such as vineyards, wine selections, and the overall atmosphere. This provides an engaging and visually appealing introduction to the wine bar.
 
+![Screenshot of responsive Carousel](assets/images/carousel.png)
+
 ## Wine Bar Section
 This section highlights the philosophy and offerings of Wine Time, including a brief description, a wine menu, and appetizers. It provides an overview of what visitors can expect when they visit the wine bar.
 
 ## Wine Menu and Appetizers Buttons
 The Wine Menu and Appetizers buttons in the README.md file are direct links to the PDF files of the respective menus. These buttons provide quick and easy access to the detailed information about the offerings at Wine Time.
 
-* Wine Menu: The Wine Menu button links to a PDF file ![menu1](assets/images/menu1.pdf) that contains a list of the wines available at Wine Time. The menu may include details like wine names, descriptions, regions, and prices, allowing visitors to explore and choose from a curated selection of wines.
+* Wine Menu: The Wine Menu button links to a PDF file [menu1](assets/images/menu1.pdf) that contains a list of the wines available at Wine Time. The menu may include details like wine names, descriptions, regions, and prices, allowing visitors to explore and choose from a curated selection of wines.
 
-* Appetizers: The Appetizers button links to another PDF file ![menu2](assets/images/menu2.pdf) that showcases the food offerings at Wine Time. This menu typically includes a variety of small plates, finger foods, or other light fare that pairs well with wine, enhancing the overall experience for visitors. The menu may include dish names, descriptions, and prices.
+* Appetizers: The Appetizers button links to another PDF file [menu2](assets/images/menu2.pdf) that showcases the food offerings at Wine Time. This menu typically includes a variety of small plates, finger foods, or other light fare that pairs well with wine, enhancing the overall experience for visitors. The menu may include dish names, descriptions, and prices.
 
 ## Hero Section
 * Full-screen background video that plays automatically, in a loop, and muted.
