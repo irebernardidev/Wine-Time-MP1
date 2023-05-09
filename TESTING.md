@@ -80,6 +80,12 @@ Manual testing was conducted on the following elements of the [Home Page](index.
 
 ![Menu Appetizers buttons](assets/videos/Menu-Appetizers.gif)
 
+# Logo
+
+- Clicking on the Logo image will take the User to the Home Page
+
+![Logo image button](assets/videos/Logo-image.gif)
+
 # Our Wines
 
 Manual testing was conducted on the following elements of the [Menu Page](menu.html):
@@ -131,3 +137,21 @@ Manual testing was conducted on the following elements of the [Contact Page](con
 - Customers Reviews
 
 ![Customers Reviews](assets/videos/Customers-reviews.gif)
+
+# Write a Review Page
+
+Manual testing was conducted on the following elements of the [Write a Review Page](write-review.html):
+
+- Write a Review page responsiveness
+
+![Write a Review Page responsiveness](assets/videos/Write-review-responsiveness.gif)
+
+- Write a Review and Submit button, when filling out the contact form, the user must complete all fields before submitting. Hovering over the submit button will trigger hover effect, highlighting the button for the user.
+
+![Review Form](assets/videos/Review-form.gif)
+
+![Submit button](assets/videos/Submit-button.gif)
+
+- Clicking on the Return to Home button will take the User to the Home Page
+
+![Return to Home button](assets/videos/Return-button.gif)
