@@ -156,7 +156,7 @@ Lobster was chosen for the headings and titles, Josefin Sans will be used for is
 
 - ### Imagery
 High-quality images and/or videos were used to enhance the website's visual appeal and showcase the bar's atmosphere.
-The selected imagery has been sourced and created from various sites such as Freepik, Adobe, Canva.
+The selected imagery has been sourced and created from various sites such as [Freepik](https://www.freepik.com/), [Pixabay](https://pixabay.com/), [Adobe Stock](https://www.stock.adobe.com/) and [Canva](https://www.canva.com/).
 
 ## Features
 
@@ -219,7 +219,7 @@ The favicon is located in the assets/images/ directory and is set as favicon.ico
 Appearing on every page for brand recognition.
 
 ## Logo
-The Logo was drawn by the developer using [Illustrator](https://www.adobe.com/products/illustrator.html)
+The Logo was drawn by the developer using [Illustrator](https://www.adobe.com/products/illustrator.html).Clicking on the Logo image will take the User to the Home Page
 
 ![Screenshot of the logo](assets/images/ss-logo.png)
 
@@ -390,7 +390,16 @@ The Thank You page is displayed when a user submits a review. Its purpose is to 
 
 
 ## Issues and Bugs
-No issues or bugs have been identified during the testing phase.
+The developer ran into several issues during the development of the website, with the noteworthy ones listed below:
+- Background video wasn't playing when tested on iPhone.
+- Flipping Cards "Click to see.." text had truncation when screen below 1200px.
+- Copyright wasn't aligning/centering properly with the social liks above it.
+- Video modals weren't behaving as intended, and opened on the right side of the screen.
+- Review form was overflowing.
+- Customers reviews boxes were displaying in different sizes and pictures looked squished.
+- Circle images looked squished on iPhones screens and weren't aligning on iPads screen.
+
+I made the necessary changes by adding media queries and adapting existing CSS to make the site more responsive for all screen sizes.
 
 ## Technologies Used
 ---
@@ -410,8 +419,11 @@ The following technologies were used in the development of the website:
 - [Am I Responsive?](https://ui.dev/amiresponsive) was used in order to see responsive design throughout the process and to generate mockup imagery to be used.
 - [Miro](https://miro.com/app/dashboard/) was used to create the [Site map](assets/wireframes/Site-map.jpg)
 - [XConverter](https://www.xconvert.com/convert-mp4-to-gif) was used to compress and convert the mp4 videos to GIFs.
+- [Tinypng](https://tinypng.com/) was used to compress the images.
 - [Favicon](https://www.favicon.cc/) was used to create a favicon to help users quickly identify a website when multiple tabs are open or when searching through bookmarks.
 - [Illustrator](https://www.adobe.com/products/illustrator.html) was used to create the [Logo image](asssets/images/bar-logo.png)
+- [Visual Studio Code](https://code.visualstudio.com/download) was used to create files pages and produce the code for the project.
+- [Google Chrome Dev Tools](https://developer.chrome.com/docs/devtools/) was used during the testing phase to test the responsiveness of the site and to check for any bugs.
 
 # Testing
 The website was tested thoroughly to ensure it is fully functional and user-friendly. The testing phase involved manual testing on different devices and browsers.
@@ -431,7 +443,7 @@ To deploy the website on GitHub Pages, the following steps were followed:
 
 
 ## Credits
-The website was built by the developer. The webpages use images from Freepik, Pixabay and Adobe Stock free licence libreries, and icons from Font Awesome.
+The website was built by the developer. The webpages use images from [Freepik](https://www.freepik.com/), [Pixabay](https://pixabay.com/), [Adobe Stock](https://www.stock.adobe.com/) and [Canva](https://www.canva.com/) free licence libreries, and icons from Font Awesome.
 
 ### Content
 
