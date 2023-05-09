@@ -122,7 +122,9 @@ This defines the requirements based on the goals established on the strategy pla
 The information was organized into a hierarchical tree structure or site map to ensure efficient and easy navigation for users.
 
 ##### Site Map
-(insert image of site map here)
+The information above was then organized in a hierarchical tree structure, a site map, showing how users can navigate through the site with ease and efficiency, with the following results:
+Please refer to [Site-map](assets/wireframes/Site-map.jpg)
+
 
 ##### Skeleton
 Wireframes were created using a desktop version of Balsamiq to showcase the website's appearance and ensure positive user experience.
@@ -140,7 +142,9 @@ The website uses a consistent colour palette throughout all pages to ensure visu
 
 The overall design of the webpage is simple and elegant, with a focus on showcasing the wine bar's offerings in a visually appealing way. 
 
-### Colour Palette [![Colour Palette](assets/images/colour-palette1.png)](#design)
+### Colour Palette
+
+![Colour Palette](assets/images/colour-palette1.png)
 [![Colour Palette](assets/images/colour-palette2.png)](#design)
 
 - ### Typography
@@ -223,10 +227,10 @@ The Logo was drawn by the developer using [Illustrator](https://www.adobe.com/pr
 Appearing on every page for a consistently easy and intuitive navigable system on larger screens.
 
 ## Hamburger Menu
-Appearing on every for a consistently easy and intuitive navigable system on smaller screens.
+Appearing on every for a consistently easy and intuitive navigable system on smaller screens. Please refer to [Navigation bar](#navigation-bar)
 
 ## Social Media Icons
-Appearing on every page, the icons are appropriate representations of the Social Media platforms, linking users to the various platforms. The icons appear in the centre of the footer.
+Appearing on every page, the icons are appropriate representations of the Social Media platforms, linking users to the various platforms. The icons appear in the centre of the footer. Please refer to [Social media links](#socialmedia-links)
 
 ## Carousel
 The website features a carousel (slideshow) with images and captions that showcase different aspects of Wine Time, such as vineyards, wine selections, and the overall atmosphere. This provides an engaging and visually appealing introduction to the wine bar.
@@ -236,6 +240,10 @@ The website features a carousel (slideshow) with images and captions that showca
 ## Wine Bar Section
 This section highlights the philosophy and offerings of Wine Time, including a brief description, a wine menu, and appetizers. It provides an overview of what visitors can expect when they visit the wine bar.
 
+![Screenshot of responsive Wine Bar Section](assets/images/winebar-section.png)
+
+![Screenshot of responsive Wine Bar Section](assets/images/winebar-section-iPhone.png)
+
 ## Wine Menu and Appetizers Buttons
 The Wine Menu and Appetizers buttons in the README.md file are direct links to the PDF files of the respective menus. These buttons provide quick and easy access to the detailed information about the offerings at Wine Time.
 
@@ -243,10 +251,16 @@ The Wine Menu and Appetizers buttons in the README.md file are direct links to t
 
 * Appetizers: The Appetizers button links to another PDF file [menu2](assets/images/menu2.pdf) that showcases the food offerings at Wine Time. This menu typically includes a variety of small plates, finger foods, or other light fare that pairs well with wine, enhancing the overall experience for visitors. The menu may include dish names, descriptions, and prices.
 
+![Screenshot of Wine Menu and Appetizers buttons](assets/images/menu-buttons.png)
+
 ## Hero Section
 * Full-screen background video that plays automatically, in a loop, and muted.
 
 * Overlaying the video is the hero content with a welcome message and a brief description of the wine bar.
+
+![Screenshot of Background Video](assets/images/background-video.png)
+
+![Screenshot of Background Video](assets/images/background-video-iPhone.png)
 
 ## Wine Description Section
 A brief introduction to the different types of wines available at Wine Time: Red Wines, White Wines, and Sparkling Wines.
@@ -339,12 +353,16 @@ The following technologies were used in the development of the website:
 - JS (only for the map and submission forms)
 
 ### Frameworks, Libraries & Programs Used
-- [Bootstrap 5.3.0](https://getbootstrap.com/)
+- [Bootstrap 5.3.0](https://getbootstrap.com/) was used multiple times during the development of the project.
 - [Balsamiq](https://balsamiq.com/) was used to create the wireframes during the design phase of the project.
 - [GitHub](https://github.com/) was used to store the project after pushing.
 - [Google Fonts](https://fonts.google.com/) was used to import the fonts "Lobster", "Josefin Sans" and "Lato" into the style.css file. These fonts were used throughout the project.
 - [Font Awesome 6.3.0](https://fontawesome.com/) was used on almost all pages throughout the website to import icons (e.g. social media icons) for UX purposes.
 - [Am I Responsive?](https://ui.dev/amiresponsive) was used in order to see responsive design throughout the process and to generate mockup imagery to be used.
+- [Miro](https://miro.com/app/dashboard/) was used to create the [Site map](assets/wireframes/Site-map.jpg)
+- [XConverter](https://www.xconvert.com/convert-mp4-to-gif) was used to compress and convert the mp4 videos to GIFs.
+- [Favicon](https://www.favicon.cc/) was used to create a favicon to help users quickly identify a website when multiple tabs are open or when searching through bookmarks.
+- [Illustrator](https://www.adobe.com/products/illustrator.html) was used to create the [Logo image](asssets/images/bar-logo.png)
 
 # Testing
 The website was tested thoroughly to ensure it is fully functional and user-friendly. The testing phase involved manual testing on different devices and browsers.
@@ -371,10 +389,12 @@ The website was built by the developer. The webpages use images from Freepik, Pi
 - Some of the text used in the the various pages were borrowed and adapted from various sites, listed below.
 
   * [The Remedy London](https://theremedylondon.com/)
+  * [The Nook](https://thenooklondon.co.uk/)
 
 ### Media
 
 - Almost all images and videos were sourced from the various artists from [Adobe Stock](https://stock.adobe.com/uk/), [Freepik](https://www.freepik.com/) and [Pixabay](https://pixabay.com/videos/) free licenced.
+
 
 ### Code
 
