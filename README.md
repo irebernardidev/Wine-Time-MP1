@@ -265,18 +265,44 @@ The Wine Menu and Appetizers buttons in the README.md file are direct links to t
 ## Wine Description Section
 A brief introduction to the different types of wines available at Wine Time: Red Wines, White Wines, and Sparkling Wines.
 
+![Screenshot of Wine Description Section](assets/images/wine-description.png)
+
+![Screenshot of Wine Description Section](assets/images/wine-description-iPhone.png)
+
+
 ## Wine List Section
 * Displays "Our Wines of the Week" using a Bootstrap grid layout.
 * Three flip cards showcasing Red Wines, White Wines, and Sparkling Wines with an image and a description on the front, and a list of featured wines with their prices on the back.
 
+![Screenshot of Wine List Section](assets/images/wine-list.png)
+
+![Screenshot of Wine List Section](assets/images/wine-list-iPhone.png)
+
+![Screenshot of Wine List Section back](assets/images/wine-list-back.png)
+
+![Screenshot of Wine List Section back](assets/images/wine-list-back-iPhone.png)
+
+
 ## Video Modals
 The website includes three video modals that can be accessed by clicking on the respective images in the Producer Spotlights section. Each modal features a video about a specific wine producer.
+
+![Screenshot of Video Modals](assets/images/video-modals.png)
+
+![Screenshot of Video Modals](assets/images/video-modals-iPhone.png)
+
 
 ## Photo Gallery
 The photo gallery displays a collection of images representing the atmosphere and offerings at Wine Time. Images are organized into four columns with captions visible on hover.
 
+![Screenshot of Photo Gallery](assets/images/gallery.png)
+
+![Screenshot of Photo Gallery](assets/images/gallery-iPhone.png)
+
+
 ## Write a Review Button
 A call-to-action button is placed below the photo gallery, prompting users to write a review of their experience at Wine Time.
+
+![Screenshot of Write a Review Button](assets/images/review-button.png)
 
 ## Proucer Spotlights
 This section showcases three featured wine producers with clickable images that open video modals:
@@ -285,8 +311,17 @@ This section showcases three featured wine producers with clickable images that 
 2. Montefioralle Winery
 3. Chianti Winery
 
+![Screenshot of Circle Images](assets/images/circle-img.png)
+
+![Screenshot of Circle Images](assets/images/circle-click.png)
+
+
 ## Google Map and Contact Form
 The Google Map and Contact Form feature consists of two main components: the Google Map and the Contact Form. These components are placed side by side within a responsive container, ensuring they display correctly on various screen sizes.
+
+![Screenshot of Maps and Contact Form](assets/images/maps-contact.png)
+
+![Screenshot of Maps and Contacr Form](assets/images/maps-contact-iPhone.png)
 
 ### Google Map
 The Google Map is embedded in the left column using the Google Maps API. It displays the exact location of the wine bar, providing users with a visual reference to help them find the establishment. The map can be interacted with, allowing users to zoom in or out, move around the map, and even get directions to the wine bar. The API key for the Google Maps API is included in the script tag in the head section of the HTML file.
@@ -305,6 +340,10 @@ This feature allows the Wine Time website to provide an interactive and user-fri
 ## Customer Review Section
 The Customer Reviews section displays three reviews from customers who have visited the wine bar. Each review includes the customer's image, name, and a quote. This section helps to showcase positive feedback from satisfied customers.
 
+![Screenshot of Customer Review Section](assets/images/customers-reviews.png)
+
+![Screenshot of Customer Review Section](assets/images/customers-reviews-iPhone.png)
+
 ## Form Submission Success Page
 The Form Submission Success Page is designed to provide feedback to users after they have successfully submitted the contact form on the Wine Time website. This page consists of the following elements:
 
@@ -312,24 +351,34 @@ The Form Submission Success Page is designed to provide feedback to users after 
 
 2. Text Container: A container element holds the text and button. It is positioned over the background image and contains the following elements:
 
-* Heading: A large heading (h1) with the text "Form Submission Successful" informs the user that their form submission was successful.
+* Heading: A large heading (h2) with the text "Form Submission Successful" informs the user that their form submission was successful.
 
-* Subheading: A subheading (p with class "lead") provides additional information to the user, stating, "Thank you for contacting us. We will get back to you shortly." This message reassures the user that their inquiry has been received and that they can expect a response from the Wine Time team.
+* Subheading: A subheading provides additional information to the user, stating, "Thank you for contacting us. We will get back to you shortly." This message reassures the user that their inquiry has been received and that they can expect a response from the Wine Time team.
 
-* Back to Contact Page Button: A button (with class "btn custom-button") is placed below the subheading. When clicked, it redirects the user back to the contact page. This button provides an easy way for users to return to the contact page if they wish to review their submission or submit another inquiry.
+* Back to Contact Page Button: A button is placed below the subheading. When clicked, it redirects the user back to the contact page. This button provides an easy way for users to return to the contact page if they wish to review their submission or submit another inquiry.
 
 The Form Submission Success Page is designed with user experience in mind, as it provides clear feedback on the form submission's outcome and offers a seamless way to navigate back to the contact page. This page helps build trust and credibility with the user by promptly acknowledging their inquiry and assuring them of a timely response from the Wine Time team.
+
+![Screenshot of Form Submission Success Page](assets/images/successful.png)
+
+![Screenshot of Form Submission Success Page](assets/images/successful-iPhone.png)
 
 
 ## Write a Review Page
 ### Review Form
 The review form allows users to submit a review about their experience at Wine Time. The form contains fields for the user's name, email address, and review text. Form validation is performed using custom JavaScript.
 
+![Screenshot of Write a Review Page](assets/images/review-form.png)
+
+![Screenshot of Write a Review Page](assets/images/review-form-iPhone.png)
+
 ### Background Image
 The background image features an assortment of wine bottles, adding visual interest and reinforcing the theme of the website.
 
 ## Thank You Page
 The Thank You page is displayed when a user submits a review. Its purpose is to acknowledge the user's input, express gratitude for their feedback, and provide an option to return to the home page.
+
+![Screenshot of Thank You Page](assets/images/return.png)
 
 ## Features to Implement in the future
 - Additional features that could be added to the website in the future include:
