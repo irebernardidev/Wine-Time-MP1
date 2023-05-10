@@ -155,3 +155,41 @@ Manual testing was conducted on the following elements of the [Write a Review Pa
 - Clicking on the Return to Home button will take the User to the Home Page
 
 ![Return to Home button](assets/videos/Return-button.gif)
+
+## Automated Testing
+### Code Validation
+
+The [W3C Markup Validator](https://validator.w3.org/) service was used to validate the HTML and CSS code used.
+
+#### Results:
+
+- Home Page
+
+![Home Page HTML Validator](assets/videos/home-validator.gif)
+
+- Our Wines Page
+
+![Our Wines Page HTML Validator](assets/videos/Menu-validator.gif)
+
+- Gallery Page
+
+![Gallery Page HTML Validator](assets/videos/gallery-validator.gif)
+
+- Contact Page
+
+![Contact Page HTML Validator](assets/videos/contact-validator.gif)
+
+- Write a Review Page
+
+![Write a Review Page HTML Validator](assets/videos/review-validator.gif)
+
+- Success Message Page
+
+![Success Message Page HTML Validator](assets/videos/success-validator.gif)
+
+- Thank You Page
+
+![Thank You Page HTML Validator](assets/videos/thankyou-validator.gif)
+
+- CSS stylesheet
+
