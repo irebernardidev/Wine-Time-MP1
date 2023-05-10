@@ -1,5 +1,5 @@
 # Wine Time
-![Wine Time](assets/images/wine-time-amiresponsive.png)
+[Wine Time](assets/images/wine-time-amiresponsive.png)
 Find the final project here: [Wine Time MP1](https://irebernardidev.github.io/Wine-Time-MP1/)
 
 ## Table of Contents
@@ -144,8 +144,8 @@ The overall design of the webpage is simple and elegant, with a focus on showcas
 
 ### Colour Palette
 
-![Colour Palette](assets/images/colour-palette1.png)
-[![Colour Palette](assets/images/colour-palette2.png)](#design)
+![Colour Palette](assets/readme-files/colour-palette1.png)
+[![Colour Palette](assets/readme-files/colour-palette2.png)](#design)
 
 - ### Typography
 
@@ -185,15 +185,15 @@ Each page on the website has a consistent design and layout, ensuring ease of us
 
 ### [General Features](#general-features)
 [Navigation bar](#navigation-bar): The navbar is responsive and adapts to different screen sizes. It includes a logo, a button for toggling the navbar menu, and links to the other pages on the website.The active page should appear inside a whiter box with a black border, the the other pages should highlight in red when hovered over, this applies to both desktop and collapsible nav bars.
-![Screenshot of responsive navbar](assets/images/browser-navbar.png)
-![Screenshot of responsive navbar](assets/images/iPadmini-navbar.png)
-![Screenshot of responsive navbar](assets/images/iPhone-navbar.png)
+![Screenshot of responsive navbar](assets/readme-files/browser-navbar.png)
+![Screenshot of responsive navbar](assets/readme-files/iPadmini-navbar.png)
+![Screenshot of responsive navbar](assets/readme-files/iPhone-navbar.png)
 
 [Social media links](#socialmedia-links):
 The footer section includes links to Wine Time's social media profiles on Facebook, Instagram, and Twitter, as well as a copyright notice. Each social media site should appear dark grey, on hover, it should turn red and when clicked, should open in a new tab.
 
-![Screenshot of responsive social links](assets/images/social-links.png)
-![Screenshot of responsive social links](assets/images/social-links-hover.png)
+![Screenshot of responsive social links](assets/readme-files/social-links.png)
+![Screenshot of responsive social links](assets/readme-files/social-links-hover.png)
 
 
 [Carousel](#carousel): The carousel displays three images that highlight the wine bar's atmosphere, food, and wine selection. The carousel includes indicators/dots for navigating between the images, as well as left and right control buttons/icons.
@@ -202,10 +202,10 @@ Wine Bar Section: This section provides a description of the wine bar and its ph
 
 [Footer](#footer): The footer contains information about the wine bar's location and hours, as well as links to its social media pages. It also includes a call-to-action button for booking a table.
 
-![Screenshot of responsive footer](assets/images/Browser-footer.png)
-![Screenshot of responsive footer](assets/images/footer-bookatable-hover.png)
-![Screenshot of responsive footer](assets/images/footer-iPhone.png)
-![Screenshot of responsive footer](assets/images/footer-iPadmini.png)
+![Screenshot of responsive footer](assets/readme-files/Browser-footer.png)
+![Screenshot of responsive footer](assets/readme-files/footer-bookatable-hover.png)
+![Screenshot of responsive footer](assets/readme-files/footer-iPhone.png)
+![Screenshot of responsive footer](assets/readme-files/footer-iPadmini.png)
 
 
 # Existing Features
@@ -213,7 +213,7 @@ Wine Bar Section: This section provides a description of the wine bar and its ph
 ## Favicon
 The favicon is located in the assets/images/ directory and is set as favicon.ico in the head section. Favicons help users quickly identify a website when multiple tabs are open or when searching through bookmarks.
 
-![Screenshot of favicon](assets/images/favicon.png)
+![Screenshot of favicon](assets/readme-files/favicon.png)
 
 ## Header
 Appearing on every page for brand recognition.
@@ -221,7 +221,7 @@ Appearing on every page for brand recognition.
 ## Logo
 The Logo was drawn by the developer using [Illustrator](https://www.adobe.com/products/illustrator.html).Clicking on the Logo image will take the User to the Home Page
 
-![Screenshot of the logo](assets/images/ss-logo.png)
+![Screenshot of the logo](assets/readme-files/ss-logo.png)
 
 ## Navigation Bar
 Appearing on every page for a consistently easy and intuitive navigable system on larger screens.
@@ -235,74 +235,74 @@ Appearing on every page, the icons are appropriate representations of the Social
 ## Carousel
 The website features a carousel (slideshow) with images and captions that showcase different aspects of Wine Time, such as vineyards, wine selections, and the overall atmosphere. This provides an engaging and visually appealing introduction to the wine bar.
 
-![Screenshot of responsive Carousel](assets/images/carousel.png)
+![Screenshot of responsive Carousel](assets/readme-files/carousel.png)
 
 ## Wine Bar Section
 This section highlights the philosophy and offerings of Wine Time, including a brief description, a wine menu, and appetizers. It provides an overview of what visitors can expect when they visit the wine bar.
 
-![Screenshot of responsive Wine Bar Section](assets/images/winebar-section.png)
+![Screenshot of responsive Wine Bar Section](assets/readme-files/winebar-section.png)
 
-![Screenshot of responsive Wine Bar Section](assets/images/winebar-section-iPhone.png)
+![Screenshot of responsive Wine Bar Section](assets/readme-files/winebar-section-iPhone.png)
 
 ## Wine Menu and Appetizers Buttons
 The Wine Menu and Appetizers buttons in the README.md file are direct links to the PDF files of the respective menus. These buttons provide quick and easy access to the detailed information about the offerings at Wine Time.
 
-* Wine Menu: The Wine Menu button links to a PDF file [menu1](assets/images/menu1.pdf) that contains a list of the wines available at Wine Time. The menu may include details like wine names, descriptions, regions, and prices, allowing visitors to explore and choose from a curated selection of wines.
+* Wine Menu: The Wine Menu button links to a PDF file [menu1](assets/readme-files/menu1.pdf) that contains a list of the wines available at Wine Time. The menu may include details like wine names, descriptions, regions, and prices, allowing visitors to explore and choose from a curated selection of wines.
 
-* Appetizers: The Appetizers button links to another PDF file [menu2](assets/images/menu2.pdf) that showcases the food offerings at Wine Time. This menu typically includes a variety of small plates, finger foods, or other light fare that pairs well with wine, enhancing the overall experience for visitors. The menu may include dish names, descriptions, and prices.
+* Appetizers: The Appetizers button links to another PDF file [menu2](assets/readme-files/menu2.pdf) that showcases the food offerings at Wine Time. This menu typically includes a variety of small plates, finger foods, or other light fare that pairs well with wine, enhancing the overall experience for visitors. The menu may include dish names, descriptions, and prices.
 
-![Screenshot of Wine Menu and Appetizers buttons](assets/images/menu-buttons.png)
+![Screenshot of Wine Menu and Appetizers buttons](assets/readme-files/menu-buttons.png)
 
 ## Hero Section
 * Full-screen background video that plays automatically, in a loop, and muted.
 
 * Overlaying the video is the hero content with a welcome message and a brief description of the wine bar.
 
-![Screenshot of Background Video](assets/images/background-video.png)
+![Screenshot of Background Video](assets/readme-files/background-video.png)
 
-![Screenshot of Background Video](assets/images/background-video-iPhone.png)
+![Screenshot of Background Video](assets/readme-files/background-video-iPhone.png)
 
 ## Wine Description Section
 A brief introduction to the different types of wines available at Wine Time: Red Wines, White Wines, and Sparkling Wines.
 
-![Screenshot of Wine Description Section](assets/images/wine-description.png)
+![Screenshot of Wine Description Section](assets/readme-files/wine-description.png)
 
-![Screenshot of Wine Description Section](assets/images/wine-description-iPhone.png)
+![Screenshot of Wine Description Section](assets/readme-files/wine-description-iPhone.png)
 
 
 ## Wine List Section
 * Displays "Our Wines of the Week" using a Bootstrap grid layout.
 * Three flip cards showcasing Red Wines, White Wines, and Sparkling Wines with an image and a description on the front, and a list of featured wines with their prices on the back.
 
-![Screenshot of Wine List Section](assets/images/wine-list.png)
+![Screenshot of Wine List Section](assets/readme-files/wine-list.png)
 
-![Screenshot of Wine List Section](assets/images/wine-list-iPhone.png)
+![Screenshot of Wine List Section](assets/readme-files/wine-list-iPhone.png)
 
-![Screenshot of Wine List Section back](assets/images/wine-list-back.png)
+![Screenshot of Wine List Section back](assets/readme-files/wine-list-back.png)
 
-![Screenshot of Wine List Section back](assets/images/wine-list-back-iPhone.png)
+![Screenshot of Wine List Section back](assets/readme-files/wine-list-back-iPhone.png)
 
 
 ## Video Modals
 The website includes three video modals that can be accessed by clicking on the respective images in the Producer Spotlights section. Each modal features a video about a specific wine producer.
 
-![Screenshot of Video Modals](assets/images/video-modals.png)
+![Screenshot of Video Modals](assets/readme-files/video-modals.png)
 
-![Screenshot of Video Modals](assets/images/video-modals-iPhone.png)
+![Screenshot of Video Modals](assets/readme-files/video-modals-iPhone.png)
 
 
 ## Photo Gallery
 The photo gallery displays a collection of images representing the atmosphere and offerings at Wine Time. Images are organized into four columns with captions visible on hover.
 
-![Screenshot of Photo Gallery](assets/images/gallery.png)
+![Screenshot of Photo Gallery](assets/readme-files/gallery.png)
 
-![Screenshot of Photo Gallery](assets/images/gallery-iPhone.png)
+![Screenshot of Photo Gallery](assets/readme-files/gallery-iPhone.png)
 
 
 ## Write a Review Button
 A call-to-action button is placed below the photo gallery, prompting users to write a review of their experience at Wine Time.
 
-![Screenshot of Write a Review Button](assets/images/review-button.png)
+![Screenshot of Write a Review Button](assets/readme-files/review-button.png)
 
 ## Proucer Spotlights
 This section showcases three featured wine producers with clickable images that open video modals:
@@ -311,17 +311,17 @@ This section showcases three featured wine producers with clickable images that 
 2. Montefioralle Winery
 3. Chianti Winery
 
-![Screenshot of Circle Images](assets/images/circle-img.png)
+![Screenshot of Circle Images](assets/readme-files/circle-img.png)
 
-![Screenshot of Circle Images](assets/images/circle-click.png)
+![Screenshot of Circle Images](assets/readme-files/circle-click.png)
 
 
 ## Google Map and Contact Form
 The Google Map and Contact Form feature consists of two main components: the Google Map and the Contact Form. These components are placed side by side within a responsive container, ensuring they display correctly on various screen sizes.
 
-![Screenshot of Maps and Contact Form](assets/images/maps-contact.png)
+![Screenshot of Maps and Contact Form](assets/readme-files/maps-contact.png)
 
-![Screenshot of Maps and Contacr Form](assets/images/maps-contact-iPhone.png)
+![Screenshot of Maps and Contacr Form](assets/readme-files/maps-contact-iPhone.png)
 
 ### Google Map
 The Google Map is embedded in the left column using the Google Maps API. It displays the exact location of the wine bar, providing users with a visual reference to help them find the establishment. The map can be interacted with, allowing users to zoom in or out, move around the map, and even get directions to the wine bar. The API key for the Google Maps API is included in the script tag in the head section of the HTML file.
@@ -340,9 +340,9 @@ This feature allows the Wine Time website to provide an interactive and user-fri
 ## Customer Review Section
 The Customer Reviews section displays three reviews from customers who have visited the wine bar. Each review includes the customer's image, name, and a quote. This section helps to showcase positive feedback from satisfied customers.
 
-![Screenshot of Customer Review Section](assets/images/customers-reviews.png)
+![Screenshot of Customer Review Section](assets/readme-files/customers-reviews.png)
 
-![Screenshot of Customer Review Section](assets/images/customers-reviews-iPhone.png)
+![Screenshot of Customer Review Section](assets/readme-files/customers-reviews-iPhone.png)
 
 ## Form Submission Success Page
 The Form Submission Success Page is designed to provide feedback to users after they have successfully submitted the contact form on the Wine Time website. This page consists of the following elements:
@@ -359,18 +359,18 @@ The Form Submission Success Page is designed to provide feedback to users after 
 
 The Form Submission Success Page is designed with user experience in mind, as it provides clear feedback on the form submission's outcome and offers a seamless way to navigate back to the contact page. This page helps build trust and credibility with the user by promptly acknowledging their inquiry and assuring them of a timely response from the Wine Time team.
 
-![Screenshot of Form Submission Success Page](assets/images/successful.png)
+![Screenshot of Form Submission Success Page](assets/readme-files/successful.png)
 
-![Screenshot of Form Submission Success Page](assets/images/successful-iPhone.png)
+![Screenshot of Form Submission Success Page](assets/readme-files/successful-iPhone.png)
 
 
 ## Write a Review Page
 ### Review Form
 The review form allows users to submit a review about their experience at Wine Time. The form contains fields for the user's name, email address, and review text. Form validation is performed using custom JavaScript.
 
-![Screenshot of Write a Review Page](assets/images/review-form.png)
+![Screenshot of Write a Review Page](assets/readme-files/review-form.png)
 
-![Screenshot of Write a Review Page](assets/images/review-form-iPhone.png)
+![Screenshot of Write a Review Page](assets/readme-files/review-form-iPhone.png)
 
 ### Background Image
 The background image features an assortment of wine bottles, adding visual interest and reinforcing the theme of the website.
@@ -378,7 +378,7 @@ The background image features an assortment of wine bottles, adding visual inter
 ## Thank You Page
 The Thank You page is displayed when a user submits a review. Its purpose is to acknowledge the user's input, express gratitude for their feedback, and provide an option to return to the home page.
 
-![Screenshot of Thank You Page](assets/images/return.png)
+![Screenshot of Thank You Page](assets/readme-files/return.png)
 
 ## Features to Implement in the future
 - Additional features that could be added to the website in the future include:
