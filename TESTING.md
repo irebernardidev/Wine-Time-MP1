@@ -193,6 +193,7 @@ The [W3C Markup Validator](https://validator.w3.org/) service was used to valida
 
 - CSS stylesheet
 
+![CSS Validator](assets/testing-files/css-validator.gif)
 
 #### Browser Validation
 

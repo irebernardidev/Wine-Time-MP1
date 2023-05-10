@@ -1,5 +1,5 @@
 # Wine Time
-[Wine Time](assets/images/wine-time-amiresponsive.png)
+![Wine Time](assets/readme-files/wine-time-amiresponsive.png)
 Find the final project here: [Wine Time MP1](https://irebernardidev.github.io/Wine-Time-MP1/)
 
 ## Table of Contents
@@ -424,6 +424,7 @@ The following technologies were used in the development of the website:
 - [Illustrator](https://www.adobe.com/products/illustrator.html) was used to create the [Logo image](asssets/images/bar-logo.png)
 - [Visual Studio Code](https://code.visualstudio.com/download) was used to create files pages and produce the code for the project.
 - [Google Chrome Dev Tools](https://developer.chrome.com/docs/devtools/) was used during the testing phase to test the responsiveness of the site and to check for any bugs.
+
 
 # Testing
 The website was tested thoroughly to ensure it is fully functional and user-friendly. The testing phase involved manual testing on different devices and browsers.
