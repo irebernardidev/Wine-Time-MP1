@@ -1,9 +1,9 @@
-/* Contact Form */
-document.addEventListener("DOMContentLoaded", function () {
+/* Contact Form - function validateEmail(email) code found on https://stackoverflow.com/questions/55744003/validate-regex-of-email */
+document.addEventListener("DOMContentLoaded", function() {
   const contactForm = document.getElementById("contact-form");
   const sendButton = document.querySelector(".btn-send");
 
-  contactForm.addEventListener("submit", function (event) {
+  contactForm.addEventListener("submit", function(event) {
       event.preventDefault();
       const name = document.getElementById("form_name");
       const email = document.getElementById("form_email");
@@ -29,37 +29,35 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 
-/* Map */
+/* Google Map - define location of the business */
 
-  function initMap() {
-    var location = {
+function initMap() {
+  var location = {
       lat: 51.54271333364232,
       lng: -0.15615048271795037
-    };
-    var map = new google.maps.Map(document.getElementById("map"), {
+  };
+  var map = new google.maps.Map(document.getElementById("map"), {
       zoom: 14,
       center: location,
-    });
-    var marker = new google.maps.Marker({
+  });
+  var marker = new google.maps.Marker({
       position: location,
       map: map,
-    });
-  }
+  });
+}
 
-  /* Review Form */
-  
-  document.addEventListener("DOMContentLoaded", () => {
-    const form = document.getElementById("review-form");
-    
-    form.addEventListener("submit", (event) => {
+/* Review Form */
+
+document.addEventListener("DOMContentLoaded", () => {
+  const form = document.getElementById("review-form");
+
+  form.addEventListener("submit", (event) => {
       event.preventDefault();
       const name = document.getElementById("name").value;
       const email = document.getElementById("email").value;
       const review = document.getElementById("review").value;
-      
+
       // Redirect to the thank you page
       window.location.href = "thankyou.html";
-    });
+  });
 });
-
-

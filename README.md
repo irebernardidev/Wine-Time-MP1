@@ -460,11 +460,12 @@ The website was built by the developer. The webpages use images from [Freepik](h
 
 ### Code
 
-The developer consulted multiple sites in order to better understand the code they were trying to implement. The following sites were used on a more regular basis:
+The developer consulted multiple sites in order to better understand the code they were trying to implement. For code that was copied and edited, the developer made sure to reference this with the code. The following sites were used on a more regular basis:
 
 - [Stack Overflow](https://stackoverflow.com/)
 - [W3Schools](https://www.w3schools.com/)
 - [Geeks for Geeks](https://www.geeksforgeeks.org/)
+- [Map -Google Maps API](https://developers.google.com/maps/documentation/javascript/adding-a-google-map#javascript)
 
 [Back to top](#top)
 
