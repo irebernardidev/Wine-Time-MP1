@@ -163,35 +163,35 @@ The [W3C Markup Validator](https://validator.w3.org/) service was used to valida
 
 #### Results:
 
-- Home Page
+- Home Page: no errors or warnings to show.
 
 ![Home Page HTML Validator](assets/testing-files/home-validator.gif)
 
-- Our Wines Page
+- Our Wines Page: no errors or warnings to show.
 
 ![Our Wines Page HTML Validator](assets/testing-files/Menu-validator.gif)
 
-- Gallery Page
+- Gallery Page: no errors or warnings to show.
 
 ![Gallery Page HTML Validator](assets/testing-files/gallery-validator.gif)
 
-- Contact Page
+- Contact Page: no errors or warnings to show.
 
 ![Contact Page HTML Validator](assets/testing-files/contact-validator.gif)
 
-- Write a Review Page
+- Write a Review Page: no errors or warnings to show.
 
 ![Write a Review Page HTML Validator](assets/testing-files/review-validator.gif)
 
-- Success Message Page
+- Success Message Page: no errors or warnings to show.
 
 ![Success Message Page HTML Validator](assets/testing-files/success-validator.gif)
 
-- Thank You Page
+- Thank You Page: no errors or warnings to show.
 
 ![Thank You Page HTML Validator](assets/testing-files/thankyou-validator.gif)
 
-- CSS stylesheet
+- CSS stylesheet: no errors found.
 
 ![CSS Validator](assets/testing-files/css-validator.gif)
 
