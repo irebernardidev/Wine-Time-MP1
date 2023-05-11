@@ -3,7 +3,7 @@
 
 [View live project](https://irebernardidev.github.io/Wine-Time-MP1/)
 
-[View GitHub repository](#)
+[View GitHub repository](https://github.com/irebernardidev/Wine-Time-MP1)
 
 ## Table of contents
 1. [Testing User Stories](#testing-user-stories)
@@ -244,3 +244,6 @@ I used lighthouse testing via [Google Chrome Developer Tools](https://developer.
 #### [Thank You Page](thankyou.html)
 * Thank You desktop lighthouse score [here](assets/testing-files/thankyou-score.png)
 * Thank You mobile lighthouse score [here](assets/testing-files/thankyou-mob-score.png)
+
+
+[Back to top](#top)

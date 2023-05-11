@@ -127,7 +127,7 @@ Please refer to [Site-map](assets/wireframes/Site-map.jpg)
 
 
 ##### Skeleton
-Wireframes were created using a desktop version of Balsamiq to showcase the website's appearance and ensure positive user experience.
+Wireframes were created using a desktop version of [Balsamiq](https://balsamiq.com/) to showcase the website's appearance and ensure positive user experience.
 
 Please refer to [Mockups-MP1](assets/wireframes/Mockups-MP1.pdf) for detailed designs.
 
@@ -156,7 +156,7 @@ Lobster was chosen for the headings and titles, Josefin Sans will be used for is
 
 - ### Imagery
 High-quality images and/or videos were used to enhance the website's visual appeal and showcase the bar's atmosphere.
-The selected imagery has been sourced and created from various sites such as [Freepik](https://www.freepik.com/), [Pixabay](https://pixabay.com/), [Adobe Stock](https://www.stock.adobe.com/) and [Canva](https://www.canva.com/).
+The selected imagery has been sourced and created from various sites such as [Freepik](https://www.freepik.com/), [Pixabay](https://pixabay.com/), [Adobe Stock](https://www.stock.adobe.com/) and [Canva](https://www.canva.com/) free stocks.
 
 ## Features
 
@@ -198,7 +198,7 @@ The footer section includes links to Wine Time's social media profiles on Facebo
 
 [Carousel](#carousel): The carousel displays three images that highlight the wine bar's atmosphere, food, and wine selection. The carousel includes indicators/dots for navigating between the images, as well as left and right control buttons/icons.
 
-Wine Bar Section: This section provides a description of the wine bar and its philosophy. It also includes links to the wine menu and appetizer menu. The section is split into two columns, with the left column featuring a large header, a description, and two buttons linking to the menus. The right column features an image of the wine bar.
+[Wine Bar Section](#wine-bar-section): This section provides a description of the wine bar and its philosophy. It also includes links to the wine menu and appetizer menu. The section is split into two columns, with the left column featuring a large header, a description, and two buttons linking to the menus. The right column features an image of the wine bar.
 
 [Footer](#footer): The footer contains information about the wine bar's location and hours, as well as links to its social media pages. It also includes a call-to-action button for booking a table.
 
@@ -219,15 +219,15 @@ The favicon is located in the assets/images/ directory and is set as favicon.ico
 Appearing on every page for brand recognition.
 
 ## Logo
-The Logo was drawn by the developer using [Illustrator](https://www.adobe.com/products/illustrator.html).Clicking on the Logo image will take the User to the Home Page
+The Logo was drawn by the developer using [Illustrator](https://www.adobe.com/products/illustrator.html). Clicking on the Logo image will take the User to the Home Page
 
 ![Screenshot of the logo](assets/readme-files/ss-logo.png)
 
 ## Navigation Bar
-Appearing on every page for a consistently easy and intuitive navigable system on larger screens.
+Appearing on every page for a consistently easy and intuitive navigable system on larger screens. Please refer to [Navigation bar](#navigation-bar)
 
 ## Hamburger Menu
-Appearing on every for a consistently easy and intuitive navigable system on smaller screens. Please refer to [Navigation bar](#navigation-bar)
+Appearing on every page for a consistently easy and intuitive navigable system on smaller screens. Please refer to [Navigation bar](#navigation-bar)
 
 ## Social Media Icons
 Appearing on every page, the icons are appropriate representations of the Social Media platforms, linking users to the various platforms. The icons appear in the centre of the footer. Please refer to [Social media links](#socialmedia-links)
