@@ -129,7 +129,7 @@ Please refer to [Site-map](assets/wireframes/Site-map.jpg)
 ##### Skeleton
 Wireframes were created using a desktop version of [Balsamiq](https://balsamiq.com/) to showcase the website's appearance and ensure positive user experience.
 
-Please refer to [Mockups-MP1](assets/wireframes/Mockups-MP1.pdf) for detailed designs.
+Please refer to [Mockups-MP1](assets/wireframes/Mockups-MP1.pdf) for detailed designs. Please note some improvements were made during the development of the website.
 
 
 ### Design
@@ -160,7 +160,6 @@ The selected imagery has been sourced and created from various sites such as [Fr
 
 ## Features
 
----
 
 ### Design Features
 Each page within the site has a consistent and responsive navigation system. The details of features on the site are detailed below.
@@ -399,10 +398,10 @@ The developer ran into several issues during the development of the website, wit
 - Customers reviews boxes were displaying in different sizes and pictures looked squished.
 - Circle images looked squished on iPhones screens and weren't aligning on iPads screen.
 
-I made the necessary changes by adding media queries and adapting existing CSS to make the site more responsive for all screen sizes.
+I made the necessary changes by adding media queries and adapting existing CSS to make the site more responsive for all screen sizes, "playsinline" attribute was added to the background video to fix the issue.
 
 ## Technologies Used
----
+
 The following technologies were used in the development of the website:
 
 ### Main Languages Used
