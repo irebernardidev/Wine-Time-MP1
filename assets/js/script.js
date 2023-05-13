@@ -57,7 +57,7 @@ document.addEventListener("DOMContentLoaded", () => {
       const email = document.getElementById("email").value;
       const review = document.getElementById("review").value;
 
-      // Redirect to the thank you page
+      /* Redirect to the thank you page */
       window.location.href = "thankyou.html";
   });
 });

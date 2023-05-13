@@ -136,7 +136,7 @@ Please refer to [Mockups-MP1](assets/wireframes/Mockups-MP1.pdf) for detailed de
 The following design elements were used in the website:
 
 - ### Colour Scheme
-Using the [Adobe Color](https://color.adobe.com/create/color-wheel) colour wheel, the colour scheme chosen is based on wine red colour.  The dark red primary color is used for the header and some of the buttons, while the beige secondary color is used for section titles and other headings. The text color is a dark gray that provides good contrast against the light background color, and the light orange accent color is used sparingly to add some visual interest.
+Using the [Adobe Color](https://color.adobe.com/create/color-wheel) colour wheel, the colour scheme is based on a combination of neutral and warm colours. The bright red primary colour is used for the header and some of the buttons, while the grey secondary colour is used for the body text, navigation links, and dropdown items. It provides a good contrast with the white background, making the text easily readable. This colour scheme provides a clean and modern look to the website. The primary colour, red, gives a hint of wine, which is appropriate for a wine bar website. The light grey and white background colours keep the website looking fresh and clean, while the dark grey text ensures good readability. The usage of "Lobster" font for headings and captions adds a touch of elegance and sophistication.
 
 The website uses a consistent colour palette throughout all pages to ensure visual cohesion.
 
@@ -443,7 +443,7 @@ To deploy the website on GitHub Pages, the following steps were followed:
 
 
 ## Credits
-The website was built by the developer. The webpages use images from [Freepik](https://www.freepik.com/), [Pixabay](https://pixabay.com/), [Adobe Stock](https://www.stock.adobe.com/) and [Canva](https://www.canva.com/) free licence libreries, and icons from Font Awesome.
+The website was built by the developer. The webpages use images from [Freepik](https://www.freepik.com/), [Pixabay](https://pixabay.com/), [Adobe Stock](https://www.stock.adobe.com/) and [Canva](https://www.canva.com/) free licence libreries, and icons from [Font Awesome](https://fontawesome.com/) and [Favicon](https://www.favicon.cc/).
 
 ### Content
 
@@ -454,7 +454,7 @@ The website was built by the developer. The webpages use images from [Freepik](h
 
 ### Media
 
-- Almost all images and videos were sourced from the various artists from [Adobe Stock](https://stock.adobe.com/uk/), [Freepik](https://www.freepik.com/) and [Pixabay](https://pixabay.com/videos/) free licenced.
+- All images and videos were sourced from the various artists from [Adobe Stock](https://stock.adobe.com/uk/), [Freepik](https://www.freepik.com/) and [Pixabay](https://pixabay.com/videos/) __free licenced__.
 
 
 ### Code
