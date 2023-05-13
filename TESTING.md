@@ -68,7 +68,7 @@ Manual testing was conducted on the following elements that appear on every page
 
 ![Book a Table](assets/testing-files/Book-a-table-button.gif)
 
-# Home Page
+### Home Page
 
 Manual testing was conducted on the following elements of the [Home Page](index.html):
 
@@ -80,13 +80,13 @@ Manual testing was conducted on the following elements of the [Home Page](index.
 
 ![Menu Appetizers buttons](assets/testing-files/Menu-Appetizers.gif)
 
-# Logo
+### Logo
 
 - Clicking on the Logo image will take the User to the Home Page
 
 ![Logo image button](assets/testing-files/Logo-image.gif)
 
-# Our Wines
+### Our Wines
 
 Manual testing was conducted on the following elements of the [Menu Page](menu.html):
 
@@ -98,7 +98,7 @@ Manual testing was conducted on the following elements of the [Menu Page](menu.h
 
 ![Flipping Wine Cards](assets/testing-files/flipping-cards.gif)
 
-# Gallery Page
+### Gallery Page
 
 Manual testing was conducted on the following elements of the [Gallery Page](gallery.html):
 
@@ -120,7 +120,7 @@ Manual testing was conducted on the following elements of the [Gallery Page](gal
 
 ![Review button](assets/testing-files/Review-button.gif)
 
-# Contact Page
+### Contact Page
 
 Manual testing was conducted on the following elements of the [Contact Page](contact.html):
 
@@ -138,7 +138,7 @@ Manual testing was conducted on the following elements of the [Contact Page](con
 
 ![Customers Reviews](assets/testing-files/Customers-reviews.gif)
 
-# Write a Review Page
+### Write a Review Page
 
 Manual testing was conducted on the following elements of the [Write a Review Page](write-review.html):
 
