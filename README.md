@@ -21,6 +21,8 @@ Find the final project here: [Wine Time MP1](https://irebernardidev.github.io/Wi
   * [TESTING.md](#TESTING.md)
 - [Deployment](#deployment)
   * [Deploying on GitHub Pages](#deploying-on-github-pages)
+  * [Cloning the repository](#cloning-the-repository)
+  * [Forking the repository](#forking-the-repository)
 - [Credits](#credits)
   * [Content](#content)
   * [Media](#media)
