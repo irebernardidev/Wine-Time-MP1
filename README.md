@@ -441,6 +441,21 @@ To deploy the website on GitHub Pages, the following steps were followed:
 4. Select the main branch and the root folder, then click save
 5. The website will now be live at the URL provided in the GitHub Pages section
 
+### Cloning the repository
+You can clone the repository by following these steps:
+1. Go to the https://github.com/irebernardidev/Wine-Time-MP1 repository on GitHub.
+2. Click the "Code" button to the right of the screen, click HTTPs and copy the link there.
+3. Open a GitBash terminal and navigate to the directory where you want to locate the clone.
+4. On the command line, type "git clone" then paste in the copied url and press the Enter key to begin the clone process.
+
+### Forking the repository
+By forking the GitHub Repository, we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original owner's repository.
+You can fork this repository by using the following steps:
+1. Go to the https://github.com/irebernardidev/Wine-Time-MP1 repository on GitHub.
+2. Click on the 'Fork' option towards the top left of the page.
+3. Click the dropdown button and click 'create a new fork'.
+4. This will bring up a page with details of the repository, fill in boxes as required.
+Click 'create fork'.
 
 ## Credits
 The website was built by the developer. The webpages use images from [Freepik](https://www.freepik.com/), [Pixabay](https://pixabay.com/), [Adobe Stock](https://www.stock.adobe.com/) and [Canva](https://www.canva.com/) free licence libreries, and icons from [Font Awesome](https://fontawesome.com/) and [Favicon](https://www.favicon.cc/).
