@@ -28,7 +28,7 @@ Find the final project here: [Wine Time MP1](https://irebernardidev.github.io/Wi
 - [Acknowledgements](#acknowledgements)
 
 ## Introduction
-This is a responsive webpage for Wine Time, a neighborhood wine bar that offers a cozy and relaxed atmosphere for people to discover great food and beautiful wine. The webpage is designed to be viewed on various devices with different screen sizes.
+Welcome to Wine Time, a neighborhood wine bar that offers a cozy and relaxed atmosphere for people to discover great food and beautiful wine. This is a comprehensive, user-friendly web platform designed to enhance the wine-drinking experience for enthusiasts and novices alike. The idea is to provide an informative and engaging resource for wine lovers to explore and appreciate the world of wine. All webpages are designed to be viewed on various devices with different screen sizes.
 
 This website was made for the first of four Milestone projects required to complete the Diploma in Software development program at The Code Institute.
 
